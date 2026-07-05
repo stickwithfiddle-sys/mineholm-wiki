@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://stickwithfiddle-sys.github.io/mineholm-wiki/sitemap.xml

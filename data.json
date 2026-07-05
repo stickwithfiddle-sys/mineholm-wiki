@@ -1,0 +1,6503 @@
+{
+  "biomes": [
+    {
+      "heightBias": 0,
+      "hostileMobs": [
+        "gloom",
+        "skitter"
+      ],
+      "name": "plains",
+      "passiveMobs": [
+        "cluck",
+        "woolly",
+        "porko"
+      ],
+      "surface": "grass",
+      "treeType": "oak"
+    },
+    {
+      "heightBias": 1,
+      "hostileMobs": [
+        "gloom",
+        "skitter",
+        "blobby"
+      ],
+      "name": "forest",
+      "passiveMobs": [
+        "cluck",
+        "porko",
+        "glimmerbug"
+      ],
+      "surface": "grass",
+      "treeType": "oak"
+    },
+    {
+      "heightBias": -1,
+      "hostileMobs": [
+        "dune_stalker",
+        "gloom"
+      ],
+      "name": "desert",
+      "passiveMobs": [
+        "cluck"
+      ],
+      "surface": "sand"
+    },
+    {
+      "heightBias": 2,
+      "hostileMobs": [
+        "frost_shade",
+        "gloom"
+      ],
+      "name": "snow",
+      "passiveMobs": [
+        "woolly"
+      ],
+      "surface": "snow",
+      "treeType": "pine"
+    },
+    {
+      "heightBias": 10,
+      "hostileMobs": [
+        "gloom",
+        "skitter"
+      ],
+      "name": "mountains",
+      "passiveMobs": [
+        "woolly"
+      ],
+      "surface": "stone",
+      "treeType": "pine"
+    }
+  ],
+  "blocks": [
+    {
+      "color": [
+        120,
+        92,
+        58
+      ],
+      "displayName": "Grass Block",
+      "drop": "dirt",
+      "hardness": 0.6,
+      "id": 1,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "grass",
+      "natural": true,
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "shovel",
+      "transparent": false
+    },
+    {
+      "color": [
+        120,
+        92,
+        58
+      ],
+      "displayName": "Dirt",
+      "hardness": 0.5,
+      "id": 2,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "dirt",
+      "natural": true,
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "shovel",
+      "transparent": false
+    },
+    {
+      "color": [
+        128,
+        128,
+        132
+      ],
+      "displayName": "Stone",
+      "drop": "cobblestone",
+      "hardness": 6,
+      "id": 3,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 1,
+      "name": "stone",
+      "natural": true,
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        110,
+        110,
+        114
+      ],
+      "displayName": "Cobblestone",
+      "hardness": 6,
+      "id": 4,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 1,
+      "name": "cobblestone",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        219,
+        205,
+        150
+      ],
+      "displayName": "Sand",
+      "hardness": 0.5,
+      "id": 5,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "sand",
+      "natural": true,
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "shovel",
+      "transparent": false
+    },
+    {
+      "color": [
+        205,
+        190,
+        140
+      ],
+      "displayName": "Sandstone",
+      "hardness": 4,
+      "id": 6,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 1,
+      "name": "sandstone",
+      "natural": true,
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        122,
+        118,
+        116
+      ],
+      "displayName": "Gravel",
+      "hardness": 0.6,
+      "id": 7,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "gravel",
+      "natural": true,
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "shovel",
+      "transparent": false
+    },
+    {
+      "color": [
+        159,
+        164,
+        177
+      ],
+      "displayName": "Clay",
+      "hardness": 0.6,
+      "id": 8,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "clay",
+      "rarity": "uncommon",
+      "solid": true,
+      "toolClass": "shovel",
+      "transparent": false
+    },
+    {
+      "color": [
+        240,
+        246,
+        252
+      ],
+      "displayName": "Snow Block",
+      "hardness": 0.4,
+      "id": 9,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "snow",
+      "natural": true,
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "shovel",
+      "transparent": false
+    },
+    {
+      "color": [
+        160,
+        200,
+        240
+      ],
+      "displayName": "Ice",
+      "hardness": 0.6,
+      "id": 10,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "ice",
+      "natural": true,
+      "rarity": "uncommon",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": true
+    },
+    {
+      "color": [
+        54,
+        108,
+        210
+      ],
+      "displayName": "Water",
+      "hardness": -1,
+      "id": 11,
+      "lightEmission": 0,
+      "liquid": true,
+      "minTier": 0,
+      "name": "water",
+      "natural": true,
+      "rarity": "common",
+      "solid": false,
+      "toolClass": "none",
+      "transparent": true
+    },
+    {
+      "color": [
+        190,
+        70,
+        30
+      ],
+      "displayName": "Magma",
+      "drop": "none",
+      "hardness": 5,
+      "id": 12,
+      "lightEmission": 9,
+      "liquid": false,
+      "minTier": 2,
+      "name": "magma",
+      "natural": true,
+      "rarity": "rare",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        40,
+        40,
+        46
+      ],
+      "displayName": "Voidrock",
+      "hardness": -1,
+      "id": 13,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "voidrock",
+      "natural": true,
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "none",
+      "transparent": false
+    },
+    {
+      "color": [
+        82,
+        66,
+        50
+      ],
+      "displayName": "Mud",
+      "hardness": 0.6,
+      "id": 14,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "mud",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "shovel",
+      "transparent": false
+    },
+    {
+      "color": [
+        106,
+        82,
+        50
+      ],
+      "displayName": "Oakwood Log",
+      "hardness": 2,
+      "id": 20,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "oak_log",
+      "natural": true,
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "axe",
+      "transparent": false
+    },
+    {
+      "color": [
+        176,
+        138,
+        86
+      ],
+      "displayName": "Oakwood Planks",
+      "hardness": 2,
+      "id": 21,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "oak_planks",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "axe",
+      "transparent": false
+    },
+    {
+      "color": [
+        74,
+        128,
+        54
+      ],
+      "displayName": "Oakwood Leaves",
+      "drop": "sapling",
+      "hardness": 0.2,
+      "id": 22,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "oak_leaves",
+      "natural": true,
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "none",
+      "transparent": true
+    },
+    {
+      "color": [
+        210,
+        206,
+        196
+      ],
+      "displayName": "Birchwood Log",
+      "hardness": 2,
+      "id": 23,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "birch_log",
+      "natural": true,
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "axe",
+      "transparent": false
+    },
+    {
+      "color": [
+        208,
+        190,
+        150
+      ],
+      "displayName": "Birchwood Planks",
+      "hardness": 2,
+      "id": 24,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "birch_planks",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "axe",
+      "transparent": false
+    },
+    {
+      "color": [
+        108,
+        148,
+        78
+      ],
+      "displayName": "Birchwood Leaves",
+      "drop": "sapling",
+      "hardness": 0.2,
+      "id": 25,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "birch_leaves",
+      "natural": true,
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "none",
+      "transparent": true
+    },
+    {
+      "color": [
+        78,
+        132,
+        66
+      ],
+      "displayName": "Cactus",
+      "hardness": 0.4,
+      "id": 26,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "cactus",
+      "natural": true,
+      "rarity": "uncommon",
+      "solid": true,
+      "toolClass": "none",
+      "transparent": true
+    },
+    {
+      "color": [
+        96,
+        112,
+        84
+      ],
+      "displayName": "Mossy Cobblestone",
+      "hardness": 6,
+      "id": 27,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 1,
+      "name": "mossy_cobblestone",
+      "natural": true,
+      "rarity": "uncommon",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        88,
+        66,
+        44
+      ],
+      "displayName": "Pinewood Log",
+      "hardness": 2,
+      "id": 28,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "pine_log",
+      "natural": true,
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "axe",
+      "transparent": false
+    },
+    {
+      "color": [
+        48,
+        96,
+        62
+      ],
+      "displayName": "Pine Needles",
+      "drop": "sapling",
+      "hardness": 0.2,
+      "id": 29,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "pine_leaves",
+      "natural": true,
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "none",
+      "transparent": true
+    },
+    {
+      "color": [
+        70,
+        70,
+        74
+      ],
+      "displayName": "Coal Ore",
+      "drop": "coal_lump",
+      "hardness": 6,
+      "id": 40,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 1,
+      "name": "coal_ore",
+      "natural": true,
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        158,
+        130,
+        108
+      ],
+      "displayName": "Iron Ore",
+      "drop": "iron_ore_item",
+      "hardness": 10,
+      "id": 41,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 2,
+      "name": "iron_ore",
+      "natural": true,
+      "rarity": "uncommon",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        186,
+        160,
+        84
+      ],
+      "displayName": "Gold Ore",
+      "drop": "gold_ore_item",
+      "hardness": 12,
+      "id": 42,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 3,
+      "name": "gold_ore",
+      "natural": true,
+      "rarity": "rare",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        168,
+        60,
+        74
+      ],
+      "displayName": "Ruby Ore",
+      "drop": "ruby_gem",
+      "hardness": 14,
+      "id": 43,
+      "lightEmission": 2,
+      "liquid": false,
+      "minTier": 3,
+      "name": "ruby_ore",
+      "natural": true,
+      "rarity": "epic",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        120,
+        200,
+        210
+      ],
+      "displayName": "Crystal Ore",
+      "drop": "crystal_shard",
+      "hardness": 16,
+      "id": 44,
+      "lightEmission": 4,
+      "liquid": false,
+      "minTier": 3,
+      "name": "crystal_ore",
+      "natural": true,
+      "rarity": "epic",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        240,
+        220,
+        120
+      ],
+      "displayName": "Glowshard",
+      "drop": "glowshard_item",
+      "hardness": 3,
+      "id": 45,
+      "lightEmission": 13,
+      "liquid": false,
+      "minTier": 1,
+      "name": "glowshard",
+      "natural": true,
+      "rarity": "rare",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        122,
+        122,
+        126
+      ],
+      "displayName": "Stone Bricks",
+      "hardness": 6,
+      "id": 60,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 1,
+      "name": "stone_bricks",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        150,
+        84,
+        68
+      ],
+      "displayName": "Bricks",
+      "hardness": 6,
+      "id": 61,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 1,
+      "name": "brick",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        200,
+        226,
+        236
+      ],
+      "displayName": "Glass",
+      "drop": "none",
+      "hardness": 0.4,
+      "id": 62,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "glass",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "none",
+      "transparent": true
+    },
+    {
+      "color": [
+        236,
+        236,
+        236
+      ],
+      "displayName": "White Wool",
+      "hardness": 0.8,
+      "id": 63,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "wool_white",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "none",
+      "transparent": false
+    },
+    {
+      "color": [
+        180,
+        60,
+        56
+      ],
+      "displayName": "Red Wool",
+      "hardness": 0.8,
+      "id": 64,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "wool_red",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "none",
+      "transparent": false
+    },
+    {
+      "color": [
+        60,
+        90,
+        176
+      ],
+      "displayName": "Blue Wool",
+      "hardness": 0.8,
+      "id": 65,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "wool_blue",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "none",
+      "transparent": false
+    },
+    {
+      "color": [
+        76,
+        152,
+        76
+      ],
+      "displayName": "Green Wool",
+      "hardness": 0.8,
+      "id": 66,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "wool_green",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "none",
+      "transparent": false
+    },
+    {
+      "color": [
+        224,
+        204,
+        92
+      ],
+      "displayName": "Yellow Wool",
+      "hardness": 0.8,
+      "id": 67,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "wool_yellow",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "none",
+      "transparent": false
+    },
+    {
+      "color": [
+        90,
+        120,
+        140
+      ],
+      "displayName": "Tinted Glass",
+      "hardness": 0.4,
+      "id": 68,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "glass_pane_tint",
+      "rarity": "uncommon",
+      "solid": true,
+      "toolClass": "none",
+      "transparent": true
+    },
+    {
+      "color": [
+        150,
+        110,
+        66
+      ],
+      "displayName": "Crafting Bench",
+      "hardness": 2,
+      "id": 80,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "crafting_table",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "axe",
+      "transparent": false
+    },
+    {
+      "color": [
+        96,
+        96,
+        100
+      ],
+      "displayName": "Smelter",
+      "hardness": 6,
+      "id": 81,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 1,
+      "name": "furnace",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        110,
+        92,
+        80
+      ],
+      "displayName": "Smelter (Lit)",
+      "drop": "furnace",
+      "hardness": 6,
+      "id": 82,
+      "lightEmission": 12,
+      "liquid": false,
+      "minTier": 1,
+      "name": "furnace_lit",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        130,
+        96,
+        200
+      ],
+      "displayName": "Infusion Altar",
+      "hardness": 8,
+      "id": 83,
+      "lightEmission": 6,
+      "liquid": false,
+      "minTier": 2,
+      "name": "infusion_altar",
+      "rarity": "rare",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        250,
+        200,
+        90
+      ],
+      "displayName": "Torch",
+      "hardness": 0.1,
+      "id": 84,
+      "lightEmission": 14,
+      "liquid": false,
+      "minTier": 0,
+      "name": "torch",
+      "rarity": "common",
+      "solid": false,
+      "toolClass": "none",
+      "transparent": true
+    },
+    {
+      "color": [
+        140,
+        100,
+        52
+      ],
+      "displayName": "Chest",
+      "hardness": 2,
+      "id": 85,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "chest",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "axe",
+      "transparent": false
+    },
+    {
+      "color": [
+        92,
+        66,
+        42
+      ],
+      "displayName": "Tilled Soil",
+      "drop": "dirt",
+      "hardness": 0.5,
+      "id": 90,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "tilled_soil",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "shovel",
+      "transparent": false
+    },
+    {
+      "color": [
+        120,
+        150,
+        70
+      ],
+      "displayName": "Wheat Sprout",
+      "drop": "seeds",
+      "hardness": 0.1,
+      "id": 91,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "wheat_stage0",
+      "rarity": "common",
+      "solid": false,
+      "toolClass": "none",
+      "transparent": true
+    },
+    {
+      "color": [
+        140,
+        164,
+        72
+      ],
+      "displayName": "Wheat (Young)",
+      "drop": "seeds",
+      "hardness": 0.1,
+      "id": 92,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "wheat_stage1",
+      "rarity": "common",
+      "solid": false,
+      "toolClass": "none",
+      "transparent": true
+    },
+    {
+      "color": [
+        178,
+        168,
+        78
+      ],
+      "displayName": "Wheat (Ripening)",
+      "drop": "wheat",
+      "hardness": 0.1,
+      "id": 93,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "wheat_stage2",
+      "rarity": "common",
+      "solid": false,
+      "toolClass": "none",
+      "transparent": true
+    },
+    {
+      "color": [
+        214,
+        190,
+        96
+      ],
+      "displayName": "Wheat (Ripe)",
+      "drop": "wheat",
+      "hardness": 0.1,
+      "id": 94,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "wheat_stage3",
+      "rarity": "common",
+      "solid": false,
+      "toolClass": "none",
+      "transparent": true
+    },
+    {
+      "color": [
+        90,
+        150,
+        70
+      ],
+      "displayName": "Oak Sapling",
+      "drop": "sapling",
+      "hardness": 0.1,
+      "id": 95,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "sapling",
+      "rarity": "common",
+      "solid": false,
+      "toolClass": "none",
+      "transparent": true
+    },
+    {
+      "color": [
+        90,
+        210,
+        190
+      ],
+      "displayName": "Crystal Core",
+      "hardness": 5,
+      "id": 110,
+      "lightEmission": 8,
+      "liquid": false,
+      "minTier": 2,
+      "name": "crystal_core",
+      "rarity": "rare",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        150,
+        140,
+        120
+      ],
+      "displayName": "Gear Conduit",
+      "hardness": 3,
+      "id": 111,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 1,
+      "name": "gear_conduit",
+      "rarity": "uncommon",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        130,
+        120,
+        150
+      ],
+      "displayName": "AND Gearbox",
+      "hardness": 3,
+      "id": 112,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 1,
+      "name": "gate_and",
+      "rarity": "uncommon",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        120,
+        140,
+        150
+      ],
+      "displayName": "OR Gearbox",
+      "hardness": 3,
+      "id": 113,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 1,
+      "name": "gate_or",
+      "rarity": "uncommon",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        150,
+        120,
+        130
+      ],
+      "displayName": "NOT Gearbox",
+      "hardness": 3,
+      "id": 114,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 1,
+      "name": "gate_not",
+      "rarity": "uncommon",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        200,
+        180,
+        120
+      ],
+      "displayName": "Lumen Lamp",
+      "hardness": 3,
+      "id": 115,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 1,
+      "name": "actuator_lamp",
+      "rarity": "uncommon",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        140,
+        130,
+        110
+      ],
+      "displayName": "Ram Piston",
+      "hardness": 4,
+      "id": 116,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 2,
+      "name": "actuator_piston",
+      "rarity": "rare",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        150,
+        220,
+        230
+      ],
+      "displayName": "Crystal Block",
+      "hardness": 5,
+      "id": 130,
+      "lightEmission": 6,
+      "liquid": false,
+      "minTier": 3,
+      "name": "crystal_block",
+      "natural": true,
+      "rarity": "epic",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": true
+    },
+    {
+      "color": [
+        58,
+        52,
+        70
+      ],
+      "displayName": "Gloomstone",
+      "hardness": 9,
+      "id": 131,
+      "lightEmission": 1,
+      "liquid": false,
+      "minTier": 3,
+      "name": "gloomstone",
+      "natural": true,
+      "rarity": "epic",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        196,
+        214,
+        232
+      ],
+      "displayName": "Skystone",
+      "hardness": 5,
+      "id": 132,
+      "lightEmission": 3,
+      "liquid": false,
+      "minTier": 2,
+      "name": "skystone",
+      "rarity": "rare",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        232,
+        238,
+        245
+      ],
+      "displayName": "Cloudweave",
+      "hardness": 0.6,
+      "id": 133,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "cloudweave",
+      "rarity": "rare",
+      "solid": true,
+      "toolClass": "none",
+      "transparent": false
+    },
+    {
+      "color": [
+        170,
+        170,
+        175
+      ],
+      "displayName": "Castle Ashlar",
+      "hardness": 3,
+      "id": 140,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "castle_ashlar",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        86,
+        74,
+        80
+      ],
+      "displayName": "Dungeon Bricks",
+      "hardness": 3,
+      "id": 141,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "dungeon_bricks",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        108,
+        124,
+        96
+      ],
+      "displayName": "Overgrown Bricks",
+      "hardness": 2.5,
+      "id": 142,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "overgrown_bricks",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        196,
+        192,
+        184
+      ],
+      "displayName": "Carved Column",
+      "hardness": 3,
+      "id": 143,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "carved_pillar",
+      "natural": true,
+      "rarity": "uncommon",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        90,
+        94,
+        102
+      ],
+      "displayName": "Iron Portcullis",
+      "hardness": 5,
+      "id": 144,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 1,
+      "name": "iron_lattice",
+      "rarity": "uncommon",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": true
+    },
+    {
+      "color": [
+        172,
+        206,
+        236
+      ],
+      "displayName": "Frostkeep Bricks",
+      "hardness": 2.5,
+      "id": 145,
+      "lightEmission": 2,
+      "liquid": false,
+      "minTier": 0,
+      "name": "frost_bricks",
+      "natural": true,
+      "rarity": "uncommon",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        152,
+        96,
+        150
+      ],
+      "displayName": "Jewel Glass",
+      "hardness": 0.5,
+      "id": 146,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "jewel_glass",
+      "rarity": "rare",
+      "solid": true,
+      "toolClass": "none",
+      "transparent": true
+    },
+    {
+      "color": [
+        98,
+        138,
+        108
+      ],
+      "displayName": "Verdant Marble",
+      "hardness": 3.5,
+      "id": 147,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 1,
+      "name": "verdant_marble",
+      "rarity": "rare",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        190,
+        152,
+        70
+      ],
+      "displayName": "Gilded Bricks",
+      "hardness": 3,
+      "id": 148,
+      "lightEmission": 2,
+      "liquid": false,
+      "minTier": 1,
+      "name": "gilded_bricks",
+      "rarity": "rare",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        228,
+        216,
+        190
+      ],
+      "displayName": "Timberframe Wall",
+      "hardness": 2,
+      "id": 149,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "timber_frame",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "axe",
+      "transparent": false
+    },
+    {
+      "color": [
+        72,
+        112,
+        162
+      ],
+      "displayName": "Seaslate Shingles",
+      "hardness": 2.5,
+      "id": 150,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "shingles_blue",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        160,
+        64,
+        54
+      ],
+      "displayName": "Ember Shingles",
+      "hardness": 2.5,
+      "id": 151,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "shingles_red",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        64,
+        122,
+        82
+      ],
+      "displayName": "Moss Shingles",
+      "hardness": 2.5,
+      "id": 152,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "shingles_green",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        80,
+        84,
+        92
+      ],
+      "displayName": "Slate Shingles",
+      "hardness": 2.5,
+      "id": 153,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "shingles_slate",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        198,
+        168,
+        94
+      ],
+      "displayName": "Thatch",
+      "hardness": 0.8,
+      "id": 154,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "thatch",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "none",
+      "transparent": false
+    },
+    {
+      "color": [
+        152,
+        140,
+        118
+      ],
+      "displayName": "Flagstone Path",
+      "hardness": 2,
+      "id": 155,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "flagstone",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        136,
+        108,
+        68
+      ],
+      "displayName": "Trodden Path",
+      "hardness": 0.8,
+      "id": 156,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "packed_path",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "shovel",
+      "transparent": false
+    },
+    {
+      "color": [
+        232,
+        190,
+        110
+      ],
+      "displayName": "Iron Lantern",
+      "hardness": 2,
+      "id": 157,
+      "lightEmission": 14,
+      "liquid": false,
+      "minTier": 0,
+      "name": "lantern_block",
+      "rarity": "uncommon",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        58,
+        110,
+        52
+      ],
+      "displayName": "Hedge",
+      "hardness": 0.8,
+      "id": 158,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "hedge",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "none",
+      "transparent": false
+    },
+    {
+      "color": [
+        150,
+        120,
+        82
+      ],
+      "displayName": "Pinewood Planks",
+      "hardness": 1.5,
+      "id": 159,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "pine_planks",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "axe",
+      "transparent": false
+    },
+    {
+      "color": [
+        240,
+        240,
+        238
+      ],
+      "displayName": "White Paintstone",
+      "hardness": 1.8,
+      "id": 160,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "painted_white",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        180,
+        182,
+        184
+      ],
+      "displayName": "Light Gray Paintstone",
+      "hardness": 1.8,
+      "id": 161,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "painted_light_gray",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        110,
+        112,
+        116
+      ],
+      "displayName": "Gray Paintstone",
+      "hardness": 1.8,
+      "id": 162,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "painted_gray",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        34,
+        34,
+        38
+      ],
+      "displayName": "Black Paintstone",
+      "hardness": 1.8,
+      "id": 163,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "painted_black",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        118,
+        82,
+        54
+      ],
+      "displayName": "Brown Paintstone",
+      "hardness": 1.8,
+      "id": 164,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "painted_brown",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        190,
+        52,
+        46
+      ],
+      "displayName": "Red Paintstone",
+      "hardness": 1.8,
+      "id": 165,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "painted_red",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        230,
+        132,
+        38
+      ],
+      "displayName": "Orange Paintstone",
+      "hardness": 1.8,
+      "id": 166,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "painted_orange",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        240,
+        200,
+        60
+      ],
+      "displayName": "Yellow Paintstone",
+      "hardness": 1.8,
+      "id": 167,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "painted_yellow",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        130,
+        200,
+        56
+      ],
+      "displayName": "Lime Paintstone",
+      "hardness": 1.8,
+      "id": 168,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "painted_lime",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        66,
+        128,
+        62
+      ],
+      "displayName": "Green Paintstone",
+      "hardness": 1.8,
+      "id": 169,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "painted_green",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        52,
+        158,
+        162
+      ],
+      "displayName": "Cyan Paintstone",
+      "hardness": 1.8,
+      "id": 170,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "painted_cyan",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        108,
+        176,
+        228
+      ],
+      "displayName": "Sky Paintstone",
+      "hardness": 1.8,
+      "id": 171,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "painted_light_blue",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        58,
+        86,
+        178
+      ],
+      "displayName": "Blue Paintstone",
+      "hardness": 1.8,
+      "id": 172,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "painted_blue",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        128,
+        70,
+        170
+      ],
+      "displayName": "Purple Paintstone",
+      "hardness": 1.8,
+      "id": 173,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "painted_purple",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        196,
+        84,
+        178
+      ],
+      "displayName": "Magenta Paintstone",
+      "hardness": 1.8,
+      "id": 174,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "painted_magenta",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        238,
+        158,
+        184
+      ],
+      "displayName": "Pink Paintstone",
+      "hardness": 1.8,
+      "id": 175,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "painted_pink",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        172,
+        172,
+        174
+      ],
+      "displayName": "Smooth Stone",
+      "hardness": 2.5,
+      "id": 176,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "smooth_stone",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        228,
+        226,
+        220
+      ],
+      "displayName": "Pale Marble",
+      "hardness": 3,
+      "id": 177,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "marble_block",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        70,
+        78,
+        90
+      ],
+      "displayName": "Slate",
+      "hardness": 2.5,
+      "id": 178,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "slate_block",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        54,
+        52,
+        56
+      ],
+      "displayName": "Charcoal Brick",
+      "hardness": 2.5,
+      "id": 179,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "charcoal_brick",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        236,
+        230,
+        214
+      ],
+      "displayName": "White Plaster",
+      "hardness": 1.5,
+      "id": 180,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "plaster",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        30,
+        28,
+        34
+      ],
+      "displayName": "Onyx",
+      "hardness": 3,
+      "id": 181,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 1,
+      "name": "onyx_block",
+      "rarity": "uncommon",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        66,
+        50,
+        40
+      ],
+      "displayName": "Darkwood Log",
+      "hardness": 2,
+      "id": 182,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "darkwood_log",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "axe",
+      "transparent": false
+    },
+    {
+      "color": [
+        92,
+        66,
+        50
+      ],
+      "displayName": "Darkwood Planks",
+      "hardness": 1.5,
+      "id": 183,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "darkwood_planks",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "axe",
+      "transparent": false
+    },
+    {
+      "color": [
+        168,
+        144,
+        104
+      ],
+      "displayName": "Palm Log",
+      "hardness": 2,
+      "id": 184,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "palm_log",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "axe",
+      "transparent": false
+    },
+    {
+      "color": [
+        202,
+        172,
+        118
+      ],
+      "displayName": "Palmwood Planks",
+      "hardness": 1.5,
+      "id": 185,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "palm_planks",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "axe",
+      "transparent": false
+    },
+    {
+      "color": [
+        92,
+        152,
+        76
+      ],
+      "displayName": "Palm Fronds",
+      "hardness": 0.4,
+      "id": 186,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "palm_fronds",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "none",
+      "transparent": true
+    },
+    {
+      "color": [
+        148,
+        174,
+        82
+      ],
+      "displayName": "Bamboo Bundle",
+      "hardness": 1.2,
+      "id": 187,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "bamboo_block",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "axe",
+      "transparent": false
+    },
+    {
+      "color": [
+        150,
+        154,
+        160
+      ],
+      "displayName": "Steel Plate",
+      "hardness": 4,
+      "id": 188,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 2,
+      "name": "steel_plate",
+      "rarity": "uncommon",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        116,
+        122,
+        130
+      ],
+      "displayName": "Riveted Panel",
+      "hardness": 4,
+      "id": 189,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 2,
+      "name": "riveted_panel",
+      "rarity": "uncommon",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        132,
+        138,
+        144
+      ],
+      "displayName": "Corrugated Metal",
+      "hardness": 3,
+      "id": 190,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 1,
+      "name": "corrugated_metal",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        142,
+        92,
+        60
+      ],
+      "displayName": "Rusted Metal",
+      "hardness": 3,
+      "id": 191,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 1,
+      "name": "rusted_metal",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        186,
+        112,
+        72
+      ],
+      "displayName": "Copper Block",
+      "hardness": 3.5,
+      "id": 192,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 1,
+      "name": "copper_block",
+      "rarity": "uncommon",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        88,
+        152,
+        126
+      ],
+      "displayName": "Weathered Copper",
+      "hardness": 3.5,
+      "id": 193,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 1,
+      "name": "oxidized_copper",
+      "rarity": "uncommon",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        222,
+        200,
+        150
+      ],
+      "displayName": "Smooth Sandstone",
+      "hardness": 2,
+      "id": 194,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "smooth_sandstone",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        210,
+        186,
+        134
+      ],
+      "displayName": "Cut Sandstone",
+      "hardness": 2,
+      "id": 195,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "cut_sandstone",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        202,
+        176,
+        122
+      ],
+      "displayName": "Carved Sandstone",
+      "hardness": 2,
+      "id": 196,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "carved_sandstone",
+      "rarity": "uncommon",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        160,
+        122,
+        88
+      ],
+      "displayName": "Mudbrick",
+      "hardness": 1.8,
+      "id": 197,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 0,
+      "name": "mudbrick",
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        80,
+        142,
+        134
+      ],
+      "displayName": "Tidestone",
+      "hardness": 3,
+      "id": 198,
+      "lightEmission": 1,
+      "liquid": false,
+      "minTier": 1,
+      "name": "tidestone",
+      "rarity": "uncommon",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        66,
+        122,
+        116
+      ],
+      "displayName": "Tidestone Bricks",
+      "hardness": 3,
+      "id": 199,
+      "lightEmission": 1,
+      "liquid": false,
+      "minTier": 1,
+      "name": "tidestone_bricks",
+      "rarity": "uncommon",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        198,
+        232,
+        222
+      ],
+      "displayName": "Sea Lantern",
+      "hardness": 1.5,
+      "id": 200,
+      "lightEmission": 13,
+      "liquid": false,
+      "minTier": 0,
+      "name": "sea_lantern",
+      "rarity": "rare",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        58,
+        92,
+        74
+      ],
+      "displayName": "Dragonscale Tiles",
+      "hardness": 4,
+      "id": 201,
+      "lightEmission": 1,
+      "liquid": false,
+      "minTier": 2,
+      "name": "dragonscale_tiles",
+      "rarity": "epic",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        170,
+        220,
+        255
+      ],
+      "displayName": "Starstone",
+      "hardness": 8,
+      "id": 202,
+      "lightEmission": 12,
+      "liquid": false,
+      "minTier": 3,
+      "name": "starstone",
+      "natural": true,
+      "rarity": "epic",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    },
+    {
+      "color": [
+        38,
+        36,
+        40
+      ],
+      "displayName": "Basalt",
+      "hardness": 6,
+      "id": 203,
+      "lightEmission": 0,
+      "liquid": false,
+      "minTier": 2,
+      "name": "basalt",
+      "natural": true,
+      "rarity": "common",
+      "solid": true,
+      "toolClass": "pickaxe",
+      "transparent": false
+    }
+  ],
+  "config": {
+    "cropStageSeconds": 40,
+    "dayLengthMinutes": 20,
+    "gearworksBudget": 500,
+    "liveOpsWeeks": [
+      "Founders' Week",
+      "Crystal Caverns",
+      "Critter Days",
+      "Sky Islands",
+      "The Great Co-Build",
+      "Gloomwood",
+      "Color Clash",
+      "Showcase Royale"
+    ],
+    "seasonStartUnix": 1782518400,
+    "treeGrowSeconds": 240
+  },
+  "items": [
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Grass Block",
+      "kind": "placeable",
+      "name": "grass",
+      "placesBlock": "grass",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Dirt",
+      "kind": "placeable",
+      "name": "dirt",
+      "placesBlock": "dirt",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Stone",
+      "kind": "placeable",
+      "name": "stone",
+      "placesBlock": "stone",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Cobblestone",
+      "kind": "placeable",
+      "name": "cobblestone",
+      "placesBlock": "cobblestone",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Sand",
+      "kind": "placeable",
+      "name": "sand",
+      "placesBlock": "sand",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Sandstone",
+      "kind": "placeable",
+      "name": "sandstone",
+      "placesBlock": "sandstone",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Gravel",
+      "kind": "placeable",
+      "name": "gravel",
+      "placesBlock": "gravel",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nUncommon rarity.",
+      "displayName": "Clay",
+      "kind": "placeable",
+      "name": "clay",
+      "placesBlock": "clay",
+      "rarity": "uncommon",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Snow Block",
+      "kind": "placeable",
+      "name": "snow",
+      "placesBlock": "snow",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nUncommon rarity.",
+      "displayName": "Ice",
+      "kind": "placeable",
+      "name": "ice",
+      "placesBlock": "ice",
+      "rarity": "uncommon",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Mud",
+      "kind": "placeable",
+      "name": "mud",
+      "placesBlock": "mud",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Oakwood Log",
+      "kind": "placeable",
+      "name": "oak_log",
+      "placesBlock": "oak_log",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Oakwood Planks",
+      "kind": "placeable",
+      "name": "oak_planks",
+      "placesBlock": "oak_planks",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Oakwood Leaves",
+      "kind": "placeable",
+      "name": "oak_leaves",
+      "placesBlock": "oak_leaves",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Birchwood Log",
+      "kind": "placeable",
+      "name": "birch_log",
+      "placesBlock": "birch_log",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Birchwood Planks",
+      "kind": "placeable",
+      "name": "birch_planks",
+      "placesBlock": "birch_planks",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Birchwood Leaves",
+      "kind": "placeable",
+      "name": "birch_leaves",
+      "placesBlock": "birch_leaves",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nUncommon rarity.",
+      "displayName": "Cactus",
+      "kind": "placeable",
+      "name": "cactus",
+      "placesBlock": "cactus",
+      "rarity": "uncommon",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nUncommon rarity.",
+      "displayName": "Mossy Cobblestone",
+      "kind": "placeable",
+      "name": "mossy_cobblestone",
+      "placesBlock": "mossy_cobblestone",
+      "rarity": "uncommon",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Pinewood Log",
+      "kind": "placeable",
+      "name": "pine_log",
+      "placesBlock": "pine_log",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Pine Needles",
+      "kind": "placeable",
+      "name": "pine_leaves",
+      "placesBlock": "pine_leaves",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Coal Ore",
+      "kind": "placeable",
+      "name": "coal_ore",
+      "placesBlock": "coal_ore",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nUncommon rarity.",
+      "displayName": "Iron Ore",
+      "kind": "placeable",
+      "name": "iron_ore",
+      "placesBlock": "iron_ore",
+      "rarity": "uncommon",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nRare rarity.",
+      "displayName": "Gold Ore",
+      "kind": "placeable",
+      "name": "gold_ore",
+      "placesBlock": "gold_ore",
+      "rarity": "rare",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nEpic rarity.",
+      "displayName": "Ruby Ore",
+      "kind": "placeable",
+      "name": "ruby_ore",
+      "placesBlock": "ruby_ore",
+      "rarity": "epic",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nEpic rarity.",
+      "displayName": "Crystal Ore",
+      "kind": "placeable",
+      "name": "crystal_ore",
+      "placesBlock": "crystal_ore",
+      "rarity": "epic",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nRare rarity.",
+      "displayName": "Glowshard",
+      "kind": "placeable",
+      "name": "glowshard",
+      "placesBlock": "glowshard",
+      "rarity": "rare",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Stone Bricks",
+      "kind": "placeable",
+      "name": "stone_bricks",
+      "placesBlock": "stone_bricks",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Bricks",
+      "kind": "placeable",
+      "name": "brick",
+      "placesBlock": "brick",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Glass",
+      "kind": "placeable",
+      "name": "glass",
+      "placesBlock": "glass",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "White Wool",
+      "kind": "placeable",
+      "name": "wool_white",
+      "placesBlock": "wool_white",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Red Wool",
+      "kind": "placeable",
+      "name": "wool_red",
+      "placesBlock": "wool_red",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Blue Wool",
+      "kind": "placeable",
+      "name": "wool_blue",
+      "placesBlock": "wool_blue",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Green Wool",
+      "kind": "placeable",
+      "name": "wool_green",
+      "placesBlock": "wool_green",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Yellow Wool",
+      "kind": "placeable",
+      "name": "wool_yellow",
+      "placesBlock": "wool_yellow",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nUncommon rarity.",
+      "displayName": "Tinted Glass",
+      "kind": "placeable",
+      "name": "glass_pane_tint",
+      "placesBlock": "glass_pane_tint",
+      "rarity": "uncommon",
+      "stackSize": 64
+    },
+    {
+      "describe": "Place it, stand close, and unlock more recipes.",
+      "displayName": "Crafting Bench",
+      "kind": "placeable",
+      "name": "crafting_table",
+      "placesBlock": "crafting_table",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Place to smelt ores and cook food (fuel: coal).",
+      "displayName": "Smelter",
+      "kind": "placeable",
+      "name": "furnace",
+      "placesBlock": "furnace",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Place, stand close, and buy permanent powers.\nRare rarity.",
+      "displayName": "Infusion Altar",
+      "kind": "placeable",
+      "name": "infusion_altar",
+      "placesBlock": "infusion_altar",
+      "rarity": "rare",
+      "stackSize": 64
+    },
+    {
+      "describe": "Place for light — spot the night coming before it spots you.",
+      "displayName": "Torch",
+      "kind": "placeable",
+      "name": "torch",
+      "placesBlock": "torch",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Chest",
+      "kind": "placeable",
+      "name": "chest",
+      "placesBlock": "chest",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Tilled Soil",
+      "kind": "placeable",
+      "name": "tilled_soil",
+      "placesBlock": "tilled_soil",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nRare rarity.",
+      "displayName": "Crystal Core",
+      "kind": "placeable",
+      "name": "crystal_core",
+      "placesBlock": "crystal_core",
+      "rarity": "rare",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nUncommon rarity.",
+      "displayName": "Gear Conduit",
+      "kind": "placeable",
+      "name": "gear_conduit",
+      "placesBlock": "gear_conduit",
+      "rarity": "uncommon",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nUncommon rarity.",
+      "displayName": "AND Gearbox",
+      "kind": "placeable",
+      "name": "gate_and",
+      "placesBlock": "gate_and",
+      "rarity": "uncommon",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nUncommon rarity.",
+      "displayName": "OR Gearbox",
+      "kind": "placeable",
+      "name": "gate_or",
+      "placesBlock": "gate_or",
+      "rarity": "uncommon",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nUncommon rarity.",
+      "displayName": "NOT Gearbox",
+      "kind": "placeable",
+      "name": "gate_not",
+      "placesBlock": "gate_not",
+      "rarity": "uncommon",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nUncommon rarity.",
+      "displayName": "Lumen Lamp",
+      "kind": "placeable",
+      "name": "actuator_lamp",
+      "placesBlock": "actuator_lamp",
+      "rarity": "uncommon",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nRare rarity.",
+      "displayName": "Ram Piston",
+      "kind": "placeable",
+      "name": "actuator_piston",
+      "placesBlock": "actuator_piston",
+      "rarity": "rare",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nEpic rarity.",
+      "displayName": "Crystal Block",
+      "kind": "placeable",
+      "name": "crystal_block",
+      "placesBlock": "crystal_block",
+      "rarity": "epic",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nEpic rarity.",
+      "displayName": "Gloomstone",
+      "kind": "placeable",
+      "name": "gloomstone",
+      "placesBlock": "gloomstone",
+      "rarity": "epic",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nRare rarity.",
+      "displayName": "Skystone",
+      "kind": "placeable",
+      "name": "skystone",
+      "placesBlock": "skystone",
+      "rarity": "rare",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nRare rarity.",
+      "displayName": "Cloudweave",
+      "kind": "placeable",
+      "name": "cloudweave",
+      "placesBlock": "cloudweave",
+      "rarity": "rare",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Castle Ashlar",
+      "kind": "placeable",
+      "name": "castle_ashlar",
+      "placesBlock": "castle_ashlar",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Dungeon Bricks",
+      "kind": "placeable",
+      "name": "dungeon_bricks",
+      "placesBlock": "dungeon_bricks",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Overgrown Bricks",
+      "kind": "placeable",
+      "name": "overgrown_bricks",
+      "placesBlock": "overgrown_bricks",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nUncommon rarity.",
+      "displayName": "Carved Column",
+      "kind": "placeable",
+      "name": "carved_pillar",
+      "placesBlock": "carved_pillar",
+      "rarity": "uncommon",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nUncommon rarity.",
+      "displayName": "Iron Portcullis",
+      "kind": "placeable",
+      "name": "iron_lattice",
+      "placesBlock": "iron_lattice",
+      "rarity": "uncommon",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nUncommon rarity.",
+      "displayName": "Frostkeep Bricks",
+      "kind": "placeable",
+      "name": "frost_bricks",
+      "placesBlock": "frost_bricks",
+      "rarity": "uncommon",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nRare rarity.",
+      "displayName": "Jewel Glass",
+      "kind": "placeable",
+      "name": "jewel_glass",
+      "placesBlock": "jewel_glass",
+      "rarity": "rare",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nRare rarity.",
+      "displayName": "Verdant Marble",
+      "kind": "placeable",
+      "name": "verdant_marble",
+      "placesBlock": "verdant_marble",
+      "rarity": "rare",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nRare rarity.",
+      "displayName": "Gilded Bricks",
+      "kind": "placeable",
+      "name": "gilded_bricks",
+      "placesBlock": "gilded_bricks",
+      "rarity": "rare",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Timberframe Wall",
+      "kind": "placeable",
+      "name": "timber_frame",
+      "placesBlock": "timber_frame",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Seaslate Shingles",
+      "kind": "placeable",
+      "name": "shingles_blue",
+      "placesBlock": "shingles_blue",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Ember Shingles",
+      "kind": "placeable",
+      "name": "shingles_red",
+      "placesBlock": "shingles_red",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Moss Shingles",
+      "kind": "placeable",
+      "name": "shingles_green",
+      "placesBlock": "shingles_green",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Slate Shingles",
+      "kind": "placeable",
+      "name": "shingles_slate",
+      "placesBlock": "shingles_slate",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Thatch",
+      "kind": "placeable",
+      "name": "thatch",
+      "placesBlock": "thatch",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Flagstone Path",
+      "kind": "placeable",
+      "name": "flagstone",
+      "placesBlock": "flagstone",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Trodden Path",
+      "kind": "placeable",
+      "name": "packed_path",
+      "placesBlock": "packed_path",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nUncommon rarity.",
+      "displayName": "Iron Lantern",
+      "kind": "placeable",
+      "name": "lantern_block",
+      "placesBlock": "lantern_block",
+      "rarity": "uncommon",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Hedge",
+      "kind": "placeable",
+      "name": "hedge",
+      "placesBlock": "hedge",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Pinewood Planks",
+      "kind": "placeable",
+      "name": "pine_planks",
+      "placesBlock": "pine_planks",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "White Paintstone",
+      "kind": "placeable",
+      "name": "painted_white",
+      "placesBlock": "painted_white",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Light Gray Paintstone",
+      "kind": "placeable",
+      "name": "painted_light_gray",
+      "placesBlock": "painted_light_gray",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Gray Paintstone",
+      "kind": "placeable",
+      "name": "painted_gray",
+      "placesBlock": "painted_gray",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Black Paintstone",
+      "kind": "placeable",
+      "name": "painted_black",
+      "placesBlock": "painted_black",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Brown Paintstone",
+      "kind": "placeable",
+      "name": "painted_brown",
+      "placesBlock": "painted_brown",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Red Paintstone",
+      "kind": "placeable",
+      "name": "painted_red",
+      "placesBlock": "painted_red",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Orange Paintstone",
+      "kind": "placeable",
+      "name": "painted_orange",
+      "placesBlock": "painted_orange",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Yellow Paintstone",
+      "kind": "placeable",
+      "name": "painted_yellow",
+      "placesBlock": "painted_yellow",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Lime Paintstone",
+      "kind": "placeable",
+      "name": "painted_lime",
+      "placesBlock": "painted_lime",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Green Paintstone",
+      "kind": "placeable",
+      "name": "painted_green",
+      "placesBlock": "painted_green",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Cyan Paintstone",
+      "kind": "placeable",
+      "name": "painted_cyan",
+      "placesBlock": "painted_cyan",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Sky Paintstone",
+      "kind": "placeable",
+      "name": "painted_light_blue",
+      "placesBlock": "painted_light_blue",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Blue Paintstone",
+      "kind": "placeable",
+      "name": "painted_blue",
+      "placesBlock": "painted_blue",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Purple Paintstone",
+      "kind": "placeable",
+      "name": "painted_purple",
+      "placesBlock": "painted_purple",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Magenta Paintstone",
+      "kind": "placeable",
+      "name": "painted_magenta",
+      "placesBlock": "painted_magenta",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Pink Paintstone",
+      "kind": "placeable",
+      "name": "painted_pink",
+      "placesBlock": "painted_pink",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Smooth Stone",
+      "kind": "placeable",
+      "name": "smooth_stone",
+      "placesBlock": "smooth_stone",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Pale Marble",
+      "kind": "placeable",
+      "name": "marble_block",
+      "placesBlock": "marble_block",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Slate",
+      "kind": "placeable",
+      "name": "slate_block",
+      "placesBlock": "slate_block",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Charcoal Brick",
+      "kind": "placeable",
+      "name": "charcoal_brick",
+      "placesBlock": "charcoal_brick",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "White Plaster",
+      "kind": "placeable",
+      "name": "plaster",
+      "placesBlock": "plaster",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nUncommon rarity.",
+      "displayName": "Onyx",
+      "kind": "placeable",
+      "name": "onyx_block",
+      "placesBlock": "onyx_block",
+      "rarity": "uncommon",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Darkwood Log",
+      "kind": "placeable",
+      "name": "darkwood_log",
+      "placesBlock": "darkwood_log",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Darkwood Planks",
+      "kind": "placeable",
+      "name": "darkwood_planks",
+      "placesBlock": "darkwood_planks",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Palm Log",
+      "kind": "placeable",
+      "name": "palm_log",
+      "placesBlock": "palm_log",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Palmwood Planks",
+      "kind": "placeable",
+      "name": "palm_planks",
+      "placesBlock": "palm_planks",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Palm Fronds",
+      "kind": "placeable",
+      "name": "palm_fronds",
+      "placesBlock": "palm_fronds",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Bamboo Bundle",
+      "kind": "placeable",
+      "name": "bamboo_block",
+      "placesBlock": "bamboo_block",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nUncommon rarity.",
+      "displayName": "Steel Plate",
+      "kind": "placeable",
+      "name": "steel_plate",
+      "placesBlock": "steel_plate",
+      "rarity": "uncommon",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nUncommon rarity.",
+      "displayName": "Riveted Panel",
+      "kind": "placeable",
+      "name": "riveted_panel",
+      "placesBlock": "riveted_panel",
+      "rarity": "uncommon",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Corrugated Metal",
+      "kind": "placeable",
+      "name": "corrugated_metal",
+      "placesBlock": "corrugated_metal",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Rusted Metal",
+      "kind": "placeable",
+      "name": "rusted_metal",
+      "placesBlock": "rusted_metal",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nUncommon rarity.",
+      "displayName": "Copper Block",
+      "kind": "placeable",
+      "name": "copper_block",
+      "placesBlock": "copper_block",
+      "rarity": "uncommon",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nUncommon rarity.",
+      "displayName": "Weathered Copper",
+      "kind": "placeable",
+      "name": "oxidized_copper",
+      "placesBlock": "oxidized_copper",
+      "rarity": "uncommon",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Smooth Sandstone",
+      "kind": "placeable",
+      "name": "smooth_sandstone",
+      "placesBlock": "smooth_sandstone",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Cut Sandstone",
+      "kind": "placeable",
+      "name": "cut_sandstone",
+      "placesBlock": "cut_sandstone",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nUncommon rarity.",
+      "displayName": "Carved Sandstone",
+      "kind": "placeable",
+      "name": "carved_sandstone",
+      "placesBlock": "carved_sandstone",
+      "rarity": "uncommon",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Mudbrick",
+      "kind": "placeable",
+      "name": "mudbrick",
+      "placesBlock": "mudbrick",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nUncommon rarity.",
+      "displayName": "Tidestone",
+      "kind": "placeable",
+      "name": "tidestone",
+      "placesBlock": "tidestone",
+      "rarity": "uncommon",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nUncommon rarity.",
+      "displayName": "Tidestone Bricks",
+      "kind": "placeable",
+      "name": "tidestone_bricks",
+      "placesBlock": "tidestone_bricks",
+      "rarity": "uncommon",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nRare rarity.",
+      "displayName": "Sea Lantern",
+      "kind": "placeable",
+      "name": "sea_lantern",
+      "placesBlock": "sea_lantern",
+      "rarity": "rare",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nEpic rarity.",
+      "displayName": "Dragonscale Tiles",
+      "kind": "placeable",
+      "name": "dragonscale_tiles",
+      "placesBlock": "dragonscale_tiles",
+      "rarity": "epic",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.\nEpic rarity.",
+      "displayName": "Starstone",
+      "kind": "placeable",
+      "name": "starstone",
+      "placesBlock": "starstone",
+      "rarity": "epic",
+      "stackSize": 64
+    },
+    {
+      "describe": "Building block. Right-click / PLACE button to build.",
+      "displayName": "Basalt",
+      "kind": "placeable",
+      "name": "basalt",
+      "placesBlock": "basalt",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Basic crafting part for tools and torches.",
+      "displayName": "Stick",
+      "kind": "material",
+      "name": "stick",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Crafting material.",
+      "displayName": "Coal",
+      "kind": "material",
+      "name": "coal_lump",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Crafting material.\nUncommon rarity.",
+      "displayName": "Raw Iron",
+      "kind": "material",
+      "name": "iron_ore_item",
+      "rarity": "uncommon",
+      "stackSize": 64
+    },
+    {
+      "describe": "Crafting material.\nRare rarity.",
+      "displayName": "Raw Gold",
+      "kind": "material",
+      "name": "gold_ore_item",
+      "rarity": "rare",
+      "stackSize": 64
+    },
+    {
+      "describe": "Crafting material.\nUncommon rarity.",
+      "displayName": "Iron Ingot",
+      "kind": "material",
+      "name": "iron_ingot",
+      "rarity": "uncommon",
+      "stackSize": 64
+    },
+    {
+      "describe": "Crafting material.\nRare rarity.",
+      "displayName": "Gold Ingot",
+      "kind": "material",
+      "name": "gold_ingot",
+      "rarity": "rare",
+      "stackSize": 64
+    },
+    {
+      "describe": "Precious gem for powerful Infusions.\nEpic rarity.",
+      "displayName": "Ruby",
+      "kind": "material",
+      "name": "ruby_gem",
+      "rarity": "epic",
+      "stackSize": 64
+    },
+    {
+      "describe": "Rare crystal. Crafts top-tier tools + Infusions.\nEpic rarity.",
+      "displayName": "Crystal Shard",
+      "kind": "material",
+      "name": "crystal_shard",
+      "rarity": "epic",
+      "stackSize": 64
+    },
+    {
+      "describe": "Glowing crystal. Fuel for Infusion powers.\nRare rarity.",
+      "displayName": "Glowshard",
+      "kind": "material",
+      "name": "glowshard_item",
+      "rarity": "rare",
+      "stackSize": 64
+    },
+    {
+      "describe": "Use (E) on tilled soil to plant wheat.",
+      "displayName": "Wheat Seeds",
+      "kind": "material",
+      "name": "seeds",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Craft 3 into bread.",
+      "displayName": "Wheat",
+      "kind": "material",
+      "name": "wheat",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Crafting material.",
+      "displayName": "Hide",
+      "kind": "material",
+      "name": "leather",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Cook it in a Smelter before eating!",
+      "displayName": "Raw Meat",
+      "kind": "material",
+      "name": "raw_meat",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Use (E) to summon THE GLOOM KING. Good luck.\nEpic rarity.",
+      "displayName": "Gloom Totem",
+      "kind": "material",
+      "name": "gloom_totem",
+      "rarity": "epic",
+      "stackSize": 64
+    },
+    {
+      "describe": "Use (E) to summon the CRYSTAL COLOSSUS. Bring friends.\nEpic rarity.",
+      "displayName": "Crystal Totem",
+      "kind": "material",
+      "name": "crystal_totem",
+      "rarity": "epic",
+      "stackSize": 64
+    },
+    {
+      "describe": "Use (E) to summon THE HYDRA. Bring everything you have.\nEpic rarity.",
+      "displayName": "Hydra Totem",
+      "kind": "material",
+      "name": "hydra_totem",
+      "rarity": "epic",
+      "stackSize": 64
+    },
+    {
+      "describe": "Shed by drakelings in the mountains. Crafts the Hydra Totem.\nEpic rarity.",
+      "displayName": "Dragon Scale",
+      "kind": "material",
+      "name": "dragon_scale",
+      "rarity": "epic",
+      "stackSize": 64
+    },
+    {
+      "describe": "Dense elite slime. Sticky. Valuable.\nUncommon rarity.",
+      "displayName": "Slime Gel",
+      "kind": "material",
+      "name": "slime_gel",
+      "rarity": "uncommon",
+      "stackSize": 64
+    },
+    {
+      "describe": "A wisp's still-warm core. Hums faintly.\nRare rarity.",
+      "displayName": "Wisp Ember",
+      "kind": "material",
+      "name": "wisp_ember",
+      "rarity": "rare",
+      "stackSize": 64
+    },
+    {
+      "describe": "Fletched with feather and flint. Ammo for the bow.",
+      "displayName": "Arrow",
+      "kind": "material",
+      "name": "arrow",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Place on grass or dirt — it grows into an oak tree!",
+      "displayName": "Sapling",
+      "kind": "material",
+      "name": "sapling",
+      "placesBlock": "sapling",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Tier 1 pickaxe. Mines 2x faster (right blocks only).",
+      "displayName": "Wood Pickaxe",
+      "durability": 60,
+      "kind": "tool",
+      "name": "pickaxe_wood",
+      "rarity": "common",
+      "speed": 2,
+      "stackSize": 1,
+      "tier": 1,
+      "toolClass": "pickaxe"
+    },
+    {
+      "describe": "Tier 2 pickaxe. Mines 4x faster (right blocks only).",
+      "displayName": "Stone Pickaxe",
+      "durability": 132,
+      "kind": "tool",
+      "name": "pickaxe_stone",
+      "rarity": "common",
+      "speed": 4,
+      "stackSize": 1,
+      "tier": 2,
+      "toolClass": "pickaxe"
+    },
+    {
+      "describe": "Tier 3 pickaxe. Mines 6x faster (right blocks only).\nUncommon rarity.",
+      "displayName": "Iron Pickaxe",
+      "durability": 251,
+      "kind": "tool",
+      "name": "pickaxe_iron",
+      "rarity": "uncommon",
+      "speed": 6,
+      "stackSize": 1,
+      "tier": 3,
+      "toolClass": "pickaxe"
+    },
+    {
+      "describe": "Tier 4 pickaxe. Mines 9x faster (right blocks only).\nEpic rarity.",
+      "displayName": "Crystal Pickaxe",
+      "durability": 780,
+      "kind": "tool",
+      "name": "pickaxe_crystal",
+      "rarity": "epic",
+      "speed": 9,
+      "stackSize": 1,
+      "tier": 4,
+      "toolClass": "pickaxe"
+    },
+    {
+      "describe": "Tier 1 axe. Mines 2x faster (right blocks only).",
+      "displayName": "Wood Axe",
+      "durability": 60,
+      "kind": "tool",
+      "name": "axe_wood",
+      "rarity": "common",
+      "speed": 2,
+      "stackSize": 1,
+      "tier": 1,
+      "toolClass": "axe"
+    },
+    {
+      "describe": "Tier 2 axe. Mines 4x faster (right blocks only).",
+      "displayName": "Stone Axe",
+      "durability": 132,
+      "kind": "tool",
+      "name": "axe_stone",
+      "rarity": "common",
+      "speed": 4,
+      "stackSize": 1,
+      "tier": 2,
+      "toolClass": "axe"
+    },
+    {
+      "describe": "Tier 3 axe. Mines 6x faster (right blocks only).\nUncommon rarity.",
+      "displayName": "Iron Axe",
+      "durability": 251,
+      "kind": "tool",
+      "name": "axe_iron",
+      "rarity": "uncommon",
+      "speed": 6,
+      "stackSize": 1,
+      "tier": 3,
+      "toolClass": "axe"
+    },
+    {
+      "describe": "Tier 4 axe. Mines 9x faster (right blocks only).\nEpic rarity.",
+      "displayName": "Crystal Axe",
+      "durability": 780,
+      "kind": "tool",
+      "name": "axe_crystal",
+      "rarity": "epic",
+      "speed": 9,
+      "stackSize": 1,
+      "tier": 4,
+      "toolClass": "axe"
+    },
+    {
+      "describe": "Tier 1 shovel. Mines 2x faster (right blocks only).",
+      "displayName": "Wood Shovel",
+      "durability": 60,
+      "kind": "tool",
+      "name": "shovel_wood",
+      "rarity": "common",
+      "speed": 2,
+      "stackSize": 1,
+      "tier": 1,
+      "toolClass": "shovel"
+    },
+    {
+      "describe": "Tier 2 shovel. Mines 4x faster (right blocks only).",
+      "displayName": "Stone Shovel",
+      "durability": 132,
+      "kind": "tool",
+      "name": "shovel_stone",
+      "rarity": "common",
+      "speed": 4,
+      "stackSize": 1,
+      "tier": 2,
+      "toolClass": "shovel"
+    },
+    {
+      "describe": "Tier 3 shovel. Mines 6x faster (right blocks only).\nUncommon rarity.",
+      "displayName": "Iron Shovel",
+      "durability": 251,
+      "kind": "tool",
+      "name": "shovel_iron",
+      "rarity": "uncommon",
+      "speed": 6,
+      "stackSize": 1,
+      "tier": 3,
+      "toolClass": "shovel"
+    },
+    {
+      "describe": "Tier 4 shovel. Mines 9x faster (right blocks only).\nEpic rarity.",
+      "displayName": "Crystal Shovel",
+      "durability": 780,
+      "kind": "tool",
+      "name": "shovel_crystal",
+      "rarity": "epic",
+      "speed": 9,
+      "stackSize": 1,
+      "tier": 4,
+      "toolClass": "shovel"
+    },
+    {
+      "damage": 4,
+      "describe": "Weapon. Deals 4 damage to creatures.",
+      "displayName": "Wood Sword",
+      "durability": 60,
+      "kind": "tool",
+      "name": "sword_wood",
+      "rarity": "common",
+      "speed": 1.5,
+      "stackSize": 1,
+      "tier": 1,
+      "toolClass": "sword"
+    },
+    {
+      "damage": 6,
+      "describe": "Weapon. Deals 6 damage to creatures.",
+      "displayName": "Stone Sword",
+      "durability": 132,
+      "kind": "tool",
+      "name": "sword_stone",
+      "rarity": "common",
+      "speed": 1.5,
+      "stackSize": 1,
+      "tier": 2,
+      "toolClass": "sword"
+    },
+    {
+      "damage": 8,
+      "describe": "Weapon. Deals 8 damage to creatures.\nUncommon rarity.",
+      "displayName": "Iron Sword",
+      "durability": 251,
+      "kind": "tool",
+      "name": "sword_iron",
+      "rarity": "uncommon",
+      "speed": 1.5,
+      "stackSize": 1,
+      "tier": 3,
+      "toolClass": "sword"
+    },
+    {
+      "damage": 10,
+      "describe": "Weapon. Deals 10 damage to creatures.\nEpic rarity.",
+      "displayName": "Crystal Sword",
+      "durability": 780,
+      "kind": "tool",
+      "name": "sword_crystal",
+      "rarity": "epic",
+      "speed": 1.5,
+      "stackSize": 1,
+      "tier": 4,
+      "toolClass": "sword"
+    },
+    {
+      "describe": "Use (E) on grass or dirt to till farmland.",
+      "displayName": "Wood Hoe",
+      "durability": 60,
+      "kind": "tool",
+      "name": "hoe_wood",
+      "rarity": "common",
+      "speed": 2,
+      "stackSize": 1,
+      "tier": 1,
+      "toolClass": "hoe"
+    },
+    {
+      "describe": "Use (E) on grass or dirt to till farmland.",
+      "displayName": "Stone Hoe",
+      "durability": 132,
+      "kind": "tool",
+      "name": "hoe_stone",
+      "rarity": "common",
+      "speed": 4,
+      "stackSize": 1,
+      "tier": 2,
+      "toolClass": "hoe"
+    },
+    {
+      "describe": "Use (E) on grass or dirt to till farmland.\nUncommon rarity.",
+      "displayName": "Iron Hoe",
+      "durability": 251,
+      "kind": "tool",
+      "name": "hoe_iron",
+      "rarity": "uncommon",
+      "speed": 6,
+      "stackSize": 1,
+      "tier": 3,
+      "toolClass": "hoe"
+    },
+    {
+      "damage": 6,
+      "describe": "Charge and loose arrows. Up to 6 damage at full draw.\nUncommon rarity.",
+      "displayName": "Bow",
+      "durability": 120,
+      "kind": "tool",
+      "name": "bow",
+      "rarity": "uncommon",
+      "speed": 1,
+      "stackSize": 1,
+      "tier": 2,
+      "toolClass": "bow"
+    },
+    {
+      "describe": "Throw (click): bursts for 3 damage around the target.\nUncommon rarity.",
+      "displayName": "Slime Bomb",
+      "kind": "throwable",
+      "name": "slime_bomb",
+      "rarity": "uncommon",
+      "stackSize": 16
+    },
+    {
+      "describe": "Throw: 5 damage + fire burst on impact.\nRare rarity.",
+      "displayName": "Ember Flask",
+      "kind": "throwable",
+      "name": "ember_flask",
+      "rarity": "rare",
+      "stackSize": 16
+    },
+    {
+      "describe": "Eat (E) to restore 4 hunger.",
+      "displayName": "Wild Apple",
+      "heal": 0,
+      "hunger": 4,
+      "kind": "food",
+      "name": "apple",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Eat (E) to restore 6 hunger and heals 1 HP.",
+      "displayName": "Bread",
+      "heal": 1,
+      "hunger": 6,
+      "kind": "food",
+      "name": "bread",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Eat (E) to restore 8 hunger and heals 2 HP.",
+      "displayName": "Cooked Meat",
+      "heal": 2,
+      "hunger": 8,
+      "kind": "food",
+      "name": "cooked_meat",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Eat (E) to restore 2 hunger.",
+      "displayName": "Sweet Berry",
+      "heal": 0,
+      "hunger": 2,
+      "kind": "food",
+      "name": "berry",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "A forest-night snack from a very polite mushroom.",
+      "displayName": "Shroom Cap",
+      "heal": 0,
+      "hunger": 3,
+      "kind": "food",
+      "name": "shroom_cap",
+      "rarity": "common",
+      "stackSize": 64
+    },
+    {
+      "describe": "Drink (E): move faster for 90s.\nUncommon rarity.",
+      "displayName": "Zoom Juice",
+      "kind": "brew",
+      "name": "speed_brew",
+      "rarity": "uncommon",
+      "stackSize": 16
+    },
+    {
+      "describe": "Drink (E): mine faster for 120s.\nUncommon rarity.",
+      "displayName": "Miner's Tonic",
+      "kind": "brew",
+      "name": "miners_tonic",
+      "rarity": "uncommon",
+      "stackSize": 16
+    },
+    {
+      "describe": "Drink (E): regenerate health for 30s.\nUncommon rarity.",
+      "displayName": "Hearty Stew",
+      "kind": "brew",
+      "name": "hearty_stew",
+      "rarity": "uncommon",
+      "stackSize": 16
+    },
+    {
+      "describe": "Drink (E): glow with light for 180s.\nUncommon rarity.",
+      "displayName": "Glow Juice",
+      "kind": "brew",
+      "name": "glow_juice",
+      "rarity": "uncommon",
+      "stackSize": 16
+    },
+    {
+      "armorSlot": "helmet",
+      "defense": 1,
+      "describe": "Equip (E). +1 defense (helmet).",
+      "displayName": "Hide Helmet",
+      "kind": "armor",
+      "name": "hide_helmet",
+      "rarity": "common",
+      "stackSize": 1
+    },
+    {
+      "armorSlot": "chest",
+      "defense": 2,
+      "describe": "Equip (E). +2 defense (chest).",
+      "displayName": "Hide Chest",
+      "kind": "armor",
+      "name": "hide_chest",
+      "rarity": "common",
+      "stackSize": 1
+    },
+    {
+      "armorSlot": "legs",
+      "defense": 1,
+      "describe": "Equip (E). +1 defense (legs).",
+      "displayName": "Hide Legs",
+      "kind": "armor",
+      "name": "hide_legs",
+      "rarity": "common",
+      "stackSize": 1
+    },
+    {
+      "armorSlot": "boots",
+      "defense": 1,
+      "describe": "Equip (E). +1 defense (boots).",
+      "displayName": "Hide Boots",
+      "kind": "armor",
+      "name": "hide_boots",
+      "rarity": "common",
+      "stackSize": 1
+    },
+    {
+      "armorSlot": "helmet",
+      "defense": 2,
+      "describe": "Equip (E). +2 defense (helmet).\nUncommon rarity.",
+      "displayName": "Iron Helmet",
+      "kind": "armor",
+      "name": "iron_helmet",
+      "rarity": "uncommon",
+      "stackSize": 1
+    },
+    {
+      "armorSlot": "chest",
+      "defense": 3,
+      "describe": "Equip (E). +3 defense (chest).\nUncommon rarity.",
+      "displayName": "Iron Chest",
+      "kind": "armor",
+      "name": "iron_chest",
+      "rarity": "uncommon",
+      "stackSize": 1
+    },
+    {
+      "armorSlot": "legs",
+      "defense": 2,
+      "describe": "Equip (E). +2 defense (legs).\nUncommon rarity.",
+      "displayName": "Iron Legs",
+      "kind": "armor",
+      "name": "iron_legs",
+      "rarity": "uncommon",
+      "stackSize": 1
+    },
+    {
+      "armorSlot": "boots",
+      "defense": 2,
+      "describe": "Equip (E). +2 defense (boots).\nUncommon rarity.",
+      "displayName": "Iron Boots",
+      "kind": "armor",
+      "name": "iron_boots",
+      "rarity": "uncommon",
+      "stackSize": 1
+    },
+    {
+      "armorSlot": "helmet",
+      "defense": 4,
+      "describe": "Equip (E). +4 defense (helmet).\nEpic rarity.",
+      "displayName": "Crystal Helmet",
+      "kind": "armor",
+      "name": "crystal_helmet",
+      "rarity": "epic",
+      "stackSize": 1
+    },
+    {
+      "armorSlot": "chest",
+      "defense": 5,
+      "describe": "Equip (E). +5 defense (chest).\nEpic rarity.",
+      "displayName": "Crystal Chest",
+      "kind": "armor",
+      "name": "crystal_chest",
+      "rarity": "epic",
+      "stackSize": 1
+    },
+    {
+      "armorSlot": "legs",
+      "defense": 4,
+      "describe": "Equip (E). +4 defense (legs).\nEpic rarity.",
+      "displayName": "Crystal Legs",
+      "kind": "armor",
+      "name": "crystal_legs",
+      "rarity": "epic",
+      "stackSize": 1
+    },
+    {
+      "armorSlot": "boots",
+      "defense": 4,
+      "describe": "Equip (E). +4 defense (boots).\nEpic rarity.",
+      "displayName": "Crystal Boots",
+      "kind": "armor",
+      "name": "crystal_boots",
+      "rarity": "epic",
+      "stackSize": 1
+    }
+  ],
+  "mobs": [
+    {
+      "aggroRange": 0,
+      "attackRange": 0,
+      "boss": false,
+      "damage": 0,
+      "displayName": "Cluck",
+      "drops": [
+        {
+          "chance": 1,
+          "count": 1,
+          "id": "raw_meat"
+        }
+      ],
+      "health": 4,
+      "hostile": false,
+      "name": "cluck",
+      "nightOnly": false,
+      "walkSpeed": 6,
+      "xp": 1
+    },
+    {
+      "aggroRange": 0,
+      "attackRange": 0,
+      "biomes": [
+        "plains",
+        "snow",
+        "mountains"
+      ],
+      "boss": false,
+      "damage": 0,
+      "displayName": "Woolly",
+      "drops": [
+        {
+          "chance": 1,
+          "count": 2,
+          "id": "wool_white"
+        },
+        {
+          "chance": 0.7,
+          "count": 1,
+          "id": "raw_meat"
+        },
+        {
+          "chance": 0.5,
+          "count": 1,
+          "id": "leather"
+        }
+      ],
+      "health": 8,
+      "hostile": false,
+      "name": "woolly",
+      "nightOnly": false,
+      "walkSpeed": 5,
+      "xp": 1
+    },
+    {
+      "aggroRange": 0,
+      "attackRange": 0,
+      "biomes": [
+        "plains",
+        "forest"
+      ],
+      "boss": false,
+      "damage": 0,
+      "displayName": "Porko",
+      "drops": [
+        {
+          "chance": 1,
+          "count": 2,
+          "id": "raw_meat"
+        },
+        {
+          "chance": 0.8,
+          "count": 1,
+          "id": "leather"
+        }
+      ],
+      "health": 8,
+      "hostile": false,
+      "name": "porko",
+      "nightOnly": false,
+      "walkSpeed": 5.5,
+      "xp": 1
+    },
+    {
+      "aggroRange": 0,
+      "attackRange": 0,
+      "biomes": [
+        "forest"
+      ],
+      "boss": false,
+      "damage": 0,
+      "displayName": "Glimmerbug",
+      "drops": [
+        {
+          "chance": 0.5,
+          "count": 1,
+          "id": "glowshard_item"
+        },
+        {
+          "chance": 0.6,
+          "count": 1,
+          "id": "berry"
+        }
+      ],
+      "flying": true,
+      "health": 3,
+      "hostile": false,
+      "name": "glimmerbug",
+      "nightOnly": true,
+      "walkSpeed": 8,
+      "xp": 2
+    },
+    {
+      "aggroRange": 0,
+      "attackRange": 0,
+      "biomes": [
+        "plains",
+        "forest"
+      ],
+      "boss": false,
+      "damage": 0,
+      "displayName": "Buzzbee",
+      "drops": [
+        {
+          "chance": 1,
+          "count": 2,
+          "id": "berry"
+        },
+        {
+          "chance": 0.5,
+          "count": 1,
+          "id": "seeds"
+        }
+      ],
+      "flying": true,
+      "health": 6,
+      "hostile": false,
+      "name": "buzzbee",
+      "nightOnly": false,
+      "walkSpeed": 9,
+      "xp": 3
+    },
+    {
+      "aggroRange": 34,
+      "attackRange": 4,
+      "boss": false,
+      "damage": 2,
+      "displayName": "Duskwing",
+      "drops": [
+        {
+          "chance": 0.6,
+          "count": 1,
+          "id": "leather"
+        },
+        {
+          "chance": 0.3,
+          "count": 1,
+          "id": "coal_lump"
+        }
+      ],
+      "flying": true,
+      "health": 8,
+      "hostile": true,
+      "name": "duskwing",
+      "nightOnly": true,
+      "walkSpeed": 11,
+      "weight": 0.8,
+      "xp": 4
+    },
+    {
+      "aggroRange": 36,
+      "attackRange": 4.5,
+      "boss": false,
+      "damage": 3,
+      "displayName": "Gloom",
+      "drops": [
+        {
+          "chance": 0.6,
+          "count": 1,
+          "id": "coal_lump"
+        }
+      ],
+      "health": 14,
+      "hostile": true,
+      "name": "gloom",
+      "nightOnly": true,
+      "walkSpeed": 7.5,
+      "xp": 5
+    },
+    {
+      "aggroRange": 30,
+      "attackRange": 3.5,
+      "boss": false,
+      "damage": 2,
+      "displayName": "Skitter",
+      "drops": [
+        {
+          "chance": 0.4,
+          "count": 1,
+          "id": "stick"
+        }
+      ],
+      "health": 10,
+      "hostile": true,
+      "name": "skitter",
+      "nightOnly": true,
+      "walkSpeed": 10,
+      "xp": 4
+    },
+    {
+      "aggroRange": 24,
+      "attackRange": 3.5,
+      "biomes": [
+        "forest",
+        "plains"
+      ],
+      "boss": false,
+      "damage": 2,
+      "displayName": "Blobby",
+      "drops": [
+        {
+          "chance": 0.8,
+          "count": 1,
+          "id": "clay"
+        }
+      ],
+      "health": 8,
+      "hostile": true,
+      "name": "blobby",
+      "nightOnly": true,
+      "walkSpeed": 5,
+      "xp": 3
+    },
+    {
+      "aggroRange": 34,
+      "attackRange": 4,
+      "biomes": [
+        "desert"
+      ],
+      "boss": false,
+      "damage": 3,
+      "displayName": "Dune Stalker",
+      "drops": [
+        {
+          "chance": 0.8,
+          "count": 2,
+          "id": "sand"
+        }
+      ],
+      "health": 12,
+      "hostile": true,
+      "name": "dune_stalker",
+      "nightOnly": false,
+      "walkSpeed": 9,
+      "xp": 5
+    },
+    {
+      "aggroRange": 34,
+      "attackRange": 4,
+      "biomes": [
+        "snow"
+      ],
+      "boss": false,
+      "damage": 3,
+      "displayName": "Frost Shade",
+      "drops": [
+        {
+          "chance": 0.7,
+          "count": 1,
+          "id": "ice"
+        }
+      ],
+      "health": 12,
+      "hostile": true,
+      "name": "frost_shade",
+      "nightOnly": false,
+      "walkSpeed": 8,
+      "xp": 5
+    },
+    {
+      "aggroRange": 24,
+      "attackRange": 4,
+      "boss": false,
+      "damage": 4,
+      "disguiseRange": 7,
+      "displayName": "Mimic",
+      "drops": [
+        {
+          "chance": 0.35,
+          "count": 1,
+          "id": "gold_ingot"
+        },
+        {
+          "chance": 0.15,
+          "count": 1,
+          "id": "ruby_gem"
+        },
+        {
+          "chance": 0.6,
+          "count": 2,
+          "id": "coal_lump"
+        }
+      ],
+      "health": 18,
+      "hostile": true,
+      "name": "mimic",
+      "nightOnly": false,
+      "walkSpeed": 8,
+      "weight": 0.35,
+      "xp": 8
+    },
+    {
+      "aggroRange": 40,
+      "attackRange": 4.5,
+      "biomes": [
+        "desert"
+      ],
+      "boss": false,
+      "damage": 4,
+      "displayName": "Sandworm",
+      "drops": [
+        {
+          "chance": 1,
+          "count": 3,
+          "id": "sand"
+        },
+        {
+          "chance": 0.5,
+          "count": 1,
+          "id": "leather"
+        },
+        {
+          "chance": 0.2,
+          "count": 1,
+          "id": "gold_ore_item"
+        }
+      ],
+      "health": 20,
+      "hostile": true,
+      "name": "sandworm",
+      "nightOnly": false,
+      "walkSpeed": 11,
+      "xp": 7
+    },
+    {
+      "aggroRange": 44,
+      "attackRange": 5.5,
+      "boss": false,
+      "damage": 3,
+      "displayName": "Gazer",
+      "drops": [
+        {
+          "chance": 0.5,
+          "count": 1,
+          "id": "glowshard_item"
+        },
+        {
+          "chance": 0.15,
+          "count": 1,
+          "id": "crystal_shard"
+        }
+      ],
+      "flying": true,
+      "health": 12,
+      "hostile": true,
+      "name": "gazer",
+      "nightOnly": true,
+      "walkSpeed": 8.5,
+      "weight": 0.7,
+      "xp": 6
+    },
+    {
+      "aggroRange": 30,
+      "attackRange": 5,
+      "biomes": [
+        "snow",
+        "mountains"
+      ],
+      "boss": false,
+      "damage": 5,
+      "displayName": "Yeti",
+      "drops": [
+        {
+          "chance": 0.8,
+          "count": 2,
+          "id": "ice"
+        },
+        {
+          "chance": 0.7,
+          "count": 2,
+          "id": "leather"
+        },
+        {
+          "chance": 0.5,
+          "count": 1,
+          "id": "raw_meat"
+        }
+      ],
+      "health": 26,
+      "hostile": true,
+      "name": "yeti",
+      "nightOnly": false,
+      "walkSpeed": 7,
+      "weight": 0.6,
+      "xp": 9
+    },
+    {
+      "aggroRange": 10,
+      "attackRange": 5,
+      "biomes": [
+        "forest"
+      ],
+      "boss": false,
+      "damage": 4,
+      "displayName": "Venus Trap",
+      "drops": [
+        {
+          "chance": 1,
+          "count": 2,
+          "id": "berry"
+        },
+        {
+          "chance": 0.4,
+          "count": 1,
+          "id": "sapling"
+        },
+        {
+          "chance": 0.3,
+          "count": 1,
+          "id": "seeds"
+        }
+      ],
+      "health": 16,
+      "hostile": true,
+      "name": "venus_trap",
+      "nightOnly": false,
+      "walkSpeed": 0,
+      "weight": 0.7,
+      "xp": 6
+    },
+    {
+      "aggroRange": 30,
+      "attackRange": 3.5,
+      "biomes": [
+        "desert"
+      ],
+      "boss": false,
+      "damage": 2,
+      "displayName": "Ember Wisp",
+      "drops": [
+        {
+          "chance": 0.8,
+          "count": 1,
+          "id": "coal_lump"
+        },
+        {
+          "chance": 0.5,
+          "count": 1,
+          "id": "wisp_ember"
+        }
+      ],
+      "flying": true,
+      "health": 8,
+      "hostile": true,
+      "name": "ember_wisp",
+      "nightOnly": true,
+      "walkSpeed": 12,
+      "weight": 0.8,
+      "xp": 4
+    },
+    {
+      "aggroRange": 30,
+      "attackRange": 3.5,
+      "biomes": [
+        "plains",
+        "forest"
+      ],
+      "boss": false,
+      "damage": 2,
+      "displayName": "Terra Wisp",
+      "drops": [
+        {
+          "chance": 0.8,
+          "count": 1,
+          "id": "clay"
+        },
+        {
+          "chance": 0.5,
+          "count": 1,
+          "id": "wisp_ember"
+        }
+      ],
+      "flying": true,
+      "health": 8,
+      "hostile": true,
+      "name": "terra_wisp",
+      "nightOnly": true,
+      "walkSpeed": 12,
+      "weight": 0.8,
+      "xp": 4
+    },
+    {
+      "aggroRange": 30,
+      "attackRange": 3.5,
+      "biomes": [
+        "mountains",
+        "snow"
+      ],
+      "boss": false,
+      "damage": 2,
+      "displayName": "Gale Wisp",
+      "drops": [
+        {
+          "chance": 0.5,
+          "count": 1,
+          "id": "wisp_ember"
+        },
+        {
+          "chance": 0.3,
+          "count": 1,
+          "id": "cloudweave"
+        }
+      ],
+      "flying": true,
+      "health": 8,
+      "hostile": true,
+      "name": "gale_wisp",
+      "nightOnly": true,
+      "walkSpeed": 13,
+      "weight": 0.8,
+      "xp": 4
+    },
+    {
+      "aggroRange": 40,
+      "attackRange": 5,
+      "biomes": [
+        "mountains"
+      ],
+      "boss": false,
+      "damage": 5,
+      "displayName": "Drakeling",
+      "drops": [
+        {
+          "chance": 0.6,
+          "count": 1,
+          "id": "dragon_scale"
+        },
+        {
+          "chance": 0.5,
+          "count": 1,
+          "id": "leather"
+        },
+        {
+          "chance": 0.15,
+          "count": 1,
+          "id": "gold_ingot"
+        }
+      ],
+      "health": 24,
+      "hostile": true,
+      "name": "drakeling",
+      "nightOnly": false,
+      "walkSpeed": 9.5,
+      "weight": 0.5,
+      "xp": 10
+    },
+    {
+      "aggroRange": 0,
+      "attackRange": 0,
+      "biomes": [
+        "forest"
+      ],
+      "boss": false,
+      "damage": 0,
+      "displayName": "Shroomling",
+      "drops": [
+        {
+          "chance": 1,
+          "count": 1,
+          "id": "shroom_cap"
+        },
+        {
+          "chance": 0.4,
+          "count": 1,
+          "id": "berry"
+        }
+      ],
+      "health": 5,
+      "hostile": false,
+      "name": "shroomling",
+      "nightOnly": true,
+      "walkSpeed": 6,
+      "xp": 2
+    },
+    {
+      "aggroRange": 30,
+      "attackRange": 4.5,
+      "biomes": [
+        "forest",
+        "plains"
+      ],
+      "boss": false,
+      "damage": 5,
+      "displayName": "Mega Blobby",
+      "drops": [
+        {
+          "chance": 1,
+          "count": 2,
+          "id": "slime_gel"
+        },
+        {
+          "chance": 0.8,
+          "count": 2,
+          "id": "clay"
+        },
+        {
+          "chance": 0.25,
+          "count": 1,
+          "id": "glowshard_item"
+        }
+      ],
+      "health": 40,
+      "hostile": true,
+      "name": "mega_blobby",
+      "nightOnly": true,
+      "walkSpeed": 5.5,
+      "weight": 0.15,
+      "xp": 18
+    },
+    {
+      "aggroRange": 80,
+      "attackRange": 7,
+      "boss": true,
+      "damage": 6,
+      "displayName": "The Gloom King",
+      "drops": [
+        {
+          "chance": 1,
+          "count": 4,
+          "id": "gloomstone"
+        },
+        {
+          "chance": 1,
+          "count": 2,
+          "id": "crystal_shard"
+        },
+        {
+          "chance": 1,
+          "count": 3,
+          "id": "glowshard_item"
+        }
+      ],
+      "health": 120,
+      "hostile": true,
+      "name": "gloom_king",
+      "nightOnly": false,
+      "walkSpeed": 8.5,
+      "xp": 120
+    },
+    {
+      "aggroRange": 80,
+      "attackRange": 8,
+      "boss": true,
+      "damage": 8,
+      "displayName": "Crystal Colossus",
+      "drops": [
+        {
+          "chance": 1,
+          "count": 4,
+          "id": "crystal_block"
+        },
+        {
+          "chance": 1,
+          "count": 2,
+          "id": "ruby_gem"
+        },
+        {
+          "chance": 1,
+          "count": 4,
+          "id": "crystal_shard"
+        }
+      ],
+      "health": 160,
+      "hostile": true,
+      "name": "crystal_colossus",
+      "nightOnly": false,
+      "walkSpeed": 6.5,
+      "xp": 160
+    },
+    {
+      "aggroRange": 90,
+      "attackRange": 8,
+      "boss": true,
+      "damage": 9,
+      "displayName": "The Hydra",
+      "drops": [
+        {
+          "chance": 1,
+          "count": 4,
+          "id": "dragon_scale"
+        },
+        {
+          "chance": 1,
+          "count": 3,
+          "id": "ruby_gem"
+        },
+        {
+          "chance": 1,
+          "count": 4,
+          "id": "crystal_shard"
+        },
+        {
+          "chance": 1,
+          "count": 2,
+          "id": "gloomstone"
+        }
+      ],
+      "health": 220,
+      "hostile": true,
+      "name": "hydra",
+      "nightOnly": false,
+      "walkSpeed": 7.5,
+      "xp": 220
+    }
+  ],
+  "ores": [
+    {
+      "name": "coal_ore",
+      "yMax": 54,
+      "yMin": 6
+    },
+    {
+      "name": "iron_ore",
+      "yMax": 44,
+      "yMin": 4
+    },
+    {
+      "name": "gold_ore",
+      "yMax": 24,
+      "yMin": 3
+    },
+    {
+      "name": "ruby_ore",
+      "yMax": 16,
+      "yMin": 2
+    },
+    {
+      "name": "crystal_ore",
+      "yMax": 20,
+      "yMin": 1
+    }
+  ],
+  "progression": {
+    "dailyPool": [
+      {
+        "count": 50,
+        "event": "mine_any",
+        "id": "daily_mine50",
+        "text": "Mine 50 blocks"
+      },
+      {
+        "count": 30,
+        "event": "place_any",
+        "id": "daily_place30",
+        "text": "Place 30 blocks"
+      },
+      {
+        "count": 10,
+        "event": "craft_any",
+        "id": "daily_craft10",
+        "text": "Craft 10 items"
+      },
+      {
+        "count": 8,
+        "event": "mine_ore",
+        "id": "daily_ore8",
+        "text": "Mine 8 ore blocks"
+      },
+      {
+        "count": 3,
+        "event": "kill_hostile",
+        "id": "daily_kill3",
+        "text": "Defeat 3 hostile mobs"
+      },
+      {
+        "count": 5,
+        "event": "harvest_crop",
+        "id": "daily_harvest5",
+        "text": "Harvest 5 crops"
+      },
+      {
+        "count": 3,
+        "event": "blockdex_new",
+        "id": "daily_discover3",
+        "text": "Discover 3 new blocks"
+      },
+      {
+        "count": 1,
+        "event": "poi_discover",
+        "id": "daily_poi",
+        "text": "Discover a wilderness landmark"
+      }
+    ],
+    "ftueChain": [
+      {
+        "count": 5,
+        "event": "mine_wood",
+        "id": "ftue_wood",
+        "rewardCount": 2,
+        "rewardItem": "apple",
+        "text": "Chop 5 wood from a tree",
+        "why": "wood is the start of everything",
+        "xp": 10
+      },
+      {
+        "count": 1,
+        "event": "craft_oak_planks",
+        "id": "ftue_planks",
+        "text": "Craft Oakwood Planks",
+        "why": "planks build your first workbench",
+        "xp": 10
+      },
+      {
+        "count": 1,
+        "event": "craft_crafting_table",
+        "id": "ftue_bench",
+        "text": "Craft a Crafting Bench",
+        "why": "it unlocks the full crafting grid",
+        "xp": 15
+      },
+      {
+        "count": 1,
+        "event": "place_crafting_table",
+        "id": "ftue_place_bench",
+        "text": "Place your Crafting Bench",
+        "why": "set it down to craft bigger things",
+        "xp": 10
+      },
+      {
+        "count": 3,
+        "event": "mine_stone",
+        "id": "ftue_stone",
+        "text": "Mine 3 stone",
+        "why": "stone makes a sturdier pickaxe",
+        "xp": 10
+      },
+      {
+        "count": 1,
+        "event": "craft_pickaxe_stone",
+        "id": "ftue_stonepick",
+        "text": "Craft a Stone Pickaxe",
+        "why": "mines faster AND cracks open ore",
+        "xp": 20
+      },
+      {
+        "count": 1,
+        "event": "mine_coal_ore",
+        "id": "ftue_coal",
+        "text": "Mine coal ore",
+        "why": "coal + sticks makes torches",
+        "xp": 15
+      },
+      {
+        "count": 1,
+        "event": "craft_torch",
+        "id": "ftue_torch",
+        "text": "Craft torches",
+        "why": "light keeps monsters away at night",
+        "xp": 10
+      },
+      {
+        "count": 1,
+        "event": "craft_furnace",
+        "id": "ftue_furnace",
+        "rewardCount": 2,
+        "rewardItem": "bread",
+        "text": "Craft a Smelter",
+        "why": "smelt raw ore into metal",
+        "xp": 25
+      },
+      {
+        "count": 1,
+        "event": "mine_iron_ore",
+        "id": "ftue_iron_ore",
+        "text": "Mine iron ore (dig deep)",
+        "why": "raw iron smelts into strong metal",
+        "xp": 15
+      },
+      {
+        "count": 1,
+        "event": "craft_iron_ingot",
+        "id": "ftue_iron",
+        "text": "Smelt an Iron Ingot",
+        "why": "iron gear is tough — it unlocks armor",
+        "xp": 20
+      },
+      {
+        "count": 1,
+        "event": "eat_food",
+        "id": "ftue_eat",
+        "rewardCount": 1,
+        "rewardItem": "bread",
+        "text": "Eat some food (hold it + E / USE)",
+        "why": "food refills your hunger to keep exploring",
+        "xp": 10
+      },
+      {
+        "count": 1,
+        "event": "kill_hostile",
+        "id": "ftue_kill",
+        "rewardCount": 4,
+        "rewardItem": "torch",
+        "text": "Defeat a hostile creature",
+        "why": "clear the night so you can explore safely",
+        "xp": 20
+      },
+      {
+        "count": 1,
+        "event": "claim_world",
+        "id": "ftue_world",
+        "text": "Claim YOUR forever-world (Journal 📖 → Worlds)",
+        "why": "your own world that saves forever",
+        "xp": 50
+      }
+    ],
+    "streakRewards": [
+      {
+        "coins": 100,
+        "day": 1,
+        "items": {},
+        "label": "100 Coins"
+      },
+      {
+        "coins": 50,
+        "day": 2,
+        "items": [
+          {
+            "count": 2,
+            "id": "glowshard_item"
+          }
+        ],
+        "label": "2 Glowshards + 50 Coins"
+      },
+      {
+        "coins": 0,
+        "day": 3,
+        "items": [
+          {
+            "count": 3,
+            "id": "apple"
+          },
+          {
+            "count": 8,
+            "id": "torch"
+          }
+        ],
+        "label": "3 Apples + 8 Torches"
+      },
+      {
+        "coins": 250,
+        "day": 4,
+        "items": [
+          {
+            "count": 2,
+            "id": "bread"
+          }
+        ],
+        "label": "250 Coins + 2 Bread"
+      },
+      {
+        "coins": 0,
+        "day": 5,
+        "items": [
+          {
+            "count": 4,
+            "id": "wool_red"
+          },
+          {
+            "count": 4,
+            "id": "wool_blue"
+          }
+        ],
+        "label": "Color Wool Pack (8)"
+      },
+      {
+        "coins": 150,
+        "day": 6,
+        "items": [
+          {
+            "count": 2,
+            "id": "iron_ingot"
+          }
+        ],
+        "label": "2 Iron Ingots + 150 Coins"
+      },
+      {
+        "coins": 500,
+        "day": 7,
+        "items": [
+          {
+            "count": 1,
+            "id": "crystal_shard"
+          },
+          {
+            "count": 1,
+            "id": "ruby_gem"
+          }
+        ],
+        "label": "Crystal + Ruby + 500 Coins"
+      }
+    ],
+    "unlocks": [
+      {
+        "label": "Stone tools unlocked!",
+        "level": 2
+      },
+      {
+        "label": "Wool dyes unlocked!",
+        "level": 3
+      },
+      {
+        "label": "Smelter + iron tools unlocked!",
+        "level": 5
+      },
+      {
+        "label": "Farming unlocked!",
+        "level": 8
+      },
+      {
+        "label": "Gearworks unlocked!",
+        "level": 12
+      },
+      {
+        "label": "Crystal tools unlocked!",
+        "level": 15
+      },
+      {
+        "label": "Decor blocks unlocked!",
+        "level": 20
+      }
+    ],
+    "weeklyPool": [
+      {
+        "count": 25,
+        "event": "cobuild_place",
+        "id": "weekly_cobuild",
+        "text": "Place 25 blocks in a friend's world"
+      },
+      {
+        "count": 10,
+        "event": "cobuild_host",
+        "id": "weekly_host",
+        "text": "Have friends place 10 blocks in YOUR world"
+      },
+      {
+        "count": 3,
+        "event": "vote_cast",
+        "id": "weekly_vote",
+        "text": "Vote for 3 Showcase worlds"
+      },
+      {
+        "count": 3,
+        "event": "poi_discover",
+        "id": "weekly_poi",
+        "text": "Discover 3 landmarks"
+      }
+    ],
+    "xpCurve": [
+      {
+        "level": 1,
+        "xp": 52
+      },
+      {
+        "level": 2,
+        "xp": 70
+      },
+      {
+        "level": 3,
+        "xp": 92
+      },
+      {
+        "level": 4,
+        "xp": 117
+      },
+      {
+        "level": 5,
+        "xp": 145
+      },
+      {
+        "level": 6,
+        "xp": 174
+      },
+      {
+        "level": 7,
+        "xp": 205
+      },
+      {
+        "level": 8,
+        "xp": 238
+      },
+      {
+        "level": 9,
+        "xp": 273
+      },
+      {
+        "level": 10,
+        "xp": 308
+      },
+      {
+        "level": 11,
+        "xp": 345
+      },
+      {
+        "level": 12,
+        "xp": 383
+      },
+      {
+        "level": 13,
+        "xp": 422
+      },
+      {
+        "level": 14,
+        "xp": 463
+      },
+      {
+        "level": 15,
+        "xp": 504
+      },
+      {
+        "level": 16,
+        "xp": 546
+      },
+      {
+        "level": 17,
+        "xp": 589
+      },
+      {
+        "level": 18,
+        "xp": 634
+      },
+      {
+        "level": 19,
+        "xp": 678
+      },
+      {
+        "level": 20,
+        "xp": 724
+      },
+      {
+        "level": 21,
+        "xp": 771
+      },
+      {
+        "level": 22,
+        "xp": 818
+      },
+      {
+        "level": 23,
+        "xp": 867
+      },
+      {
+        "level": 24,
+        "xp": 915
+      },
+      {
+        "level": 25,
+        "xp": 965
+      },
+      {
+        "level": 26,
+        "xp": 1015
+      },
+      {
+        "level": 27,
+        "xp": 1066
+      },
+      {
+        "level": 28,
+        "xp": 1118
+      },
+      {
+        "level": 29,
+        "xp": 1170
+      },
+      {
+        "level": 30,
+        "xp": 1223
+      }
+    ],
+    "xpSources": {
+      "blockdex_new": 6,
+      "cobuild_host": 1,
+      "cobuild_place": 2,
+      "craft_item": 3,
+      "harvest_crop": 3,
+      "kill_hostile": 8,
+      "kill_passive": 2,
+      "mine_block": 1,
+      "mine_ore": 4,
+      "poi_discover": 15,
+      "quest_daily": 25,
+      "quest_weekly": 80,
+      "vote_cast": 5
+    }
+  },
+  "recipes": [
+    {
+      "count": 4,
+      "ingredients": {
+        "oak_log": 1
+      },
+      "out": "oak_planks",
+      "station": "none"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "birch_log": 1
+      },
+      "out": "birch_planks",
+      "station": "none"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "oak_planks": 2
+      },
+      "out": "stick",
+      "station": "none"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "oak_planks": 4
+      },
+      "out": "crafting_table",
+      "station": "none"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "oak_planks": 8
+      },
+      "out": "chest",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "cobblestone": 8
+      },
+      "out": "furnace",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "coal_lump": 1,
+        "stick": 1
+      },
+      "out": "torch",
+      "station": "none"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "crystal_shard": 2,
+        "glowshard_item": 1,
+        "stone_bricks": 4
+      },
+      "out": "infusion_altar",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "stone": 4
+      },
+      "out": "stone_bricks",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "sand": 1
+      },
+      "out": "glass",
+      "station": "furnace"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "oak_planks": 3,
+        "stick": 2
+      },
+      "out": "pickaxe_wood",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "oak_planks": 3,
+        "stick": 2
+      },
+      "out": "axe_wood",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "oak_planks": 1,
+        "stick": 2
+      },
+      "out": "shovel_wood",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "oak_planks": 2,
+        "stick": 1
+      },
+      "out": "sword_wood",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "oak_planks": 2,
+        "stick": 2
+      },
+      "out": "hoe_wood",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "cobblestone": 3,
+        "stick": 2
+      },
+      "out": "pickaxe_stone",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "cobblestone": 3,
+        "stick": 2
+      },
+      "out": "axe_stone",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "cobblestone": 1,
+        "stick": 2
+      },
+      "out": "shovel_stone",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "cobblestone": 2,
+        "stick": 1
+      },
+      "out": "sword_stone",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "iron_ore_item": 1
+      },
+      "out": "iron_ingot",
+      "station": "furnace"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "gold_ore_item": 1
+      },
+      "out": "gold_ingot",
+      "station": "furnace"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "raw_meat": 1
+      },
+      "out": "cooked_meat",
+      "station": "furnace"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "cobblestone": 1
+      },
+      "out": "stone",
+      "station": "furnace"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "clay": 2
+      },
+      "out": "brick",
+      "station": "furnace"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "iron_ingot": 3,
+        "stick": 2
+      },
+      "out": "pickaxe_iron",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "iron_ingot": 3,
+        "stick": 2
+      },
+      "out": "axe_iron",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "iron_ingot": 1,
+        "stick": 2
+      },
+      "out": "shovel_iron",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "iron_ingot": 2,
+        "stick": 1
+      },
+      "out": "sword_iron",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "crystal_shard": 3,
+        "stick": 2
+      },
+      "out": "pickaxe_crystal",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "crystal_shard": 2,
+        "stick": 1
+      },
+      "out": "sword_crystal",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "crystal_shard": 3,
+        "stick": 2
+      },
+      "out": "axe_crystal",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "crystal_shard": 1,
+        "stick": 2
+      },
+      "out": "shovel_crystal",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "cobblestone": 2,
+        "stick": 2
+      },
+      "out": "hoe_stone",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "iron_ingot": 2,
+        "stick": 2
+      },
+      "out": "hoe_iron",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "leather": 5
+      },
+      "out": "hide_helmet",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "leather": 8
+      },
+      "out": "hide_chest",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "leather": 7
+      },
+      "out": "hide_legs",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "leather": 4
+      },
+      "out": "hide_boots",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "iron_ingot": 5
+      },
+      "out": "iron_helmet",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "iron_ingot": 8
+      },
+      "out": "iron_chest",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "iron_ingot": 7
+      },
+      "out": "iron_legs",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "iron_ingot": 4
+      },
+      "out": "iron_boots",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "crystal_shard": 5
+      },
+      "out": "crystal_helmet",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "crystal_shard": 8
+      },
+      "out": "crystal_chest",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "crystal_shard": 7
+      },
+      "out": "crystal_legs",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "crystal_shard": 4
+      },
+      "out": "crystal_boots",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "wheat": 3
+      },
+      "out": "bread",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "iron_ingot": 1,
+        "stick": 2
+      },
+      "out": "gear_conduit",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "crystal_shard": 4,
+        "iron_ingot": 1
+      },
+      "out": "crystal_core",
+      "station": "crafting_table"
+    },
+    {
+      "count": 2,
+      "ingredients": {
+        "glowshard_item": 1,
+        "iron_ingot": 1,
+        "stick": 1
+      },
+      "out": "actuator_lamp",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "crystal_shard": 1,
+        "iron_ingot": 1,
+        "stick": 2
+      },
+      "out": "gate_or",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "crystal_shard": 1,
+        "iron_ingot": 2,
+        "stick": 2
+      },
+      "out": "gate_and",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "crystal_shard": 2,
+        "iron_ingot": 1,
+        "stick": 2
+      },
+      "out": "gate_not",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "glowshard_item": 2
+      },
+      "out": "glowshard",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "cobblestone": 1,
+        "sapling": 1
+      },
+      "out": "mossy_cobblestone",
+      "station": "none"
+    },
+    {
+      "count": 2,
+      "ingredients": {
+        "clay": 1,
+        "dirt": 2
+      },
+      "out": "mud",
+      "station": "none"
+    },
+    {
+      "count": 2,
+      "ingredients": {
+        "crystal_shard": 1,
+        "glass": 2
+      },
+      "out": "glass_pane_tint",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "coal_lump": 4,
+        "glowshard_item": 2
+      },
+      "out": "gloom_totem",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "crystal_shard": 4,
+        "gold_ingot": 1
+      },
+      "out": "crystal_totem",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "crystal_shard": 4,
+        "dragon_scale": 3,
+        "ruby_gem": 1
+      },
+      "out": "hydra_totem",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "stone": 2,
+        "stone_bricks": 2
+      },
+      "out": "castle_ashlar",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "coal_lump": 1,
+        "stone_bricks": 4
+      },
+      "out": "dungeon_bricks",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "sapling": 1,
+        "stone_bricks": 1
+      },
+      "out": "overgrown_bricks",
+      "station": "none"
+    },
+    {
+      "count": 2,
+      "ingredients": {
+        "stone_bricks": 3
+      },
+      "out": "carved_pillar",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "iron_ingot": 2,
+        "stick": 2
+      },
+      "out": "iron_lattice",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "ice": 4
+      },
+      "out": "frost_bricks",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "glass": 4,
+        "ruby_gem": 1
+      },
+      "out": "jewel_glass",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "crystal_shard": 1,
+        "stone": 4
+      },
+      "out": "verdant_marble",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "brick": 2,
+        "gold_ingot": 1
+      },
+      "out": "gilded_bricks",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "clay": 2,
+        "oak_planks": 2
+      },
+      "out": "timber_frame",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "brick": 2,
+        "wool_blue": 1
+      },
+      "out": "shingles_blue",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "brick": 2,
+        "wool_red": 1
+      },
+      "out": "shingles_red",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "brick": 2,
+        "wool_green": 1
+      },
+      "out": "shingles_green",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "brick": 2,
+        "coal_lump": 1
+      },
+      "out": "shingles_slate",
+      "station": "crafting_table"
+    },
+    {
+      "count": 2,
+      "ingredients": {
+        "wheat": 4
+      },
+      "out": "thatch",
+      "station": "none"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "cobblestone": 2,
+        "gravel": 2
+      },
+      "out": "flagstone",
+      "station": "none"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "dirt": 2,
+        "gravel": 1
+      },
+      "out": "packed_path",
+      "station": "none"
+    },
+    {
+      "count": 2,
+      "ingredients": {
+        "glass": 1,
+        "iron_ingot": 1,
+        "torch": 1
+      },
+      "out": "lantern_block",
+      "station": "crafting_table"
+    },
+    {
+      "count": 2,
+      "ingredients": {
+        "sapling": 4
+      },
+      "out": "hedge",
+      "station": "none"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "pine_log": 1
+      },
+      "out": "pine_planks",
+      "station": "none"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "cobblestone": 4
+      },
+      "out": "painted_white",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "cobblestone": 4
+      },
+      "out": "painted_light_gray",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "cobblestone": 4
+      },
+      "out": "painted_gray",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "cobblestone": 4
+      },
+      "out": "painted_black",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "cobblestone": 4
+      },
+      "out": "painted_brown",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "cobblestone": 4
+      },
+      "out": "painted_red",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "cobblestone": 4
+      },
+      "out": "painted_orange",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "cobblestone": 4
+      },
+      "out": "painted_yellow",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "cobblestone": 4
+      },
+      "out": "painted_lime",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "cobblestone": 4
+      },
+      "out": "painted_green",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "cobblestone": 4
+      },
+      "out": "painted_cyan",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "cobblestone": 4
+      },
+      "out": "painted_light_blue",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "cobblestone": 4
+      },
+      "out": "painted_blue",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "cobblestone": 4
+      },
+      "out": "painted_purple",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "cobblestone": 4
+      },
+      "out": "painted_magenta",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "cobblestone": 4
+      },
+      "out": "painted_pink",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "stone": 4
+      },
+      "out": "smooth_stone",
+      "station": "furnace"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "sand": 2,
+        "stone": 2
+      },
+      "out": "marble_block",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "coal_lump": 1,
+        "stone": 3
+      },
+      "out": "slate_block",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "brick": 3,
+        "coal_lump": 1
+      },
+      "out": "charcoal_brick",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "clay": 2,
+        "sand": 2
+      },
+      "out": "plaster",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "coal_lump": 2,
+        "stone": 3
+      },
+      "out": "onyx_block",
+      "station": "crafting_table"
+    },
+    {
+      "count": 2,
+      "ingredients": {
+        "coal_lump": 1,
+        "oak_log": 2
+      },
+      "out": "darkwood_log",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "darkwood_log": 1
+      },
+      "out": "darkwood_planks",
+      "station": "none"
+    },
+    {
+      "count": 2,
+      "ingredients": {
+        "birch_log": 2,
+        "sand": 1
+      },
+      "out": "palm_log",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "palm_log": 1
+      },
+      "out": "palm_planks",
+      "station": "none"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "sapling": 2,
+        "wheat": 2
+      },
+      "out": "palm_fronds",
+      "station": "none"
+    },
+    {
+      "count": 2,
+      "ingredients": {
+        "stick": 6
+      },
+      "out": "bamboo_block",
+      "station": "none"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "iron_ingot": 2
+      },
+      "out": "steel_plate",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "iron_ingot": 1,
+        "steel_plate": 3
+      },
+      "out": "riveted_panel",
+      "station": "crafting_table"
+    },
+    {
+      "count": 6,
+      "ingredients": {
+        "steel_plate": 3
+      },
+      "out": "corrugated_metal",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "mud": 2,
+        "steel_plate": 2
+      },
+      "out": "rusted_metal",
+      "station": "crafting_table"
+    },
+    {
+      "count": 6,
+      "ingredients": {
+        "coal_lump": 1,
+        "iron_ingot": 3
+      },
+      "out": "copper_block",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "copper_block": 2,
+        "slime_gel": 1
+      },
+      "out": "oxidized_copper",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "sandstone": 4
+      },
+      "out": "smooth_sandstone",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "smooth_sandstone": 4
+      },
+      "out": "cut_sandstone",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "cut_sandstone": 4
+      },
+      "out": "carved_sandstone",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "mud": 2,
+        "sand": 2
+      },
+      "out": "mudbrick",
+      "station": "crafting_table"
+    },
+    {
+      "count": 8,
+      "ingredients": {
+        "stone": 4,
+        "wisp_ember": 1
+      },
+      "out": "tidestone",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "tidestone": 4
+      },
+      "out": "tidestone_bricks",
+      "station": "crafting_table"
+    },
+    {
+      "count": 2,
+      "ingredients": {
+        "glass": 2,
+        "glowshard_item": 1,
+        "tidestone": 1
+      },
+      "out": "sea_lantern",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "berry": 2,
+        "slime_gel": 1
+      },
+      "out": "speed_brew",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "berry": 1,
+        "coal_lump": 1,
+        "crystal_shard": 1
+      },
+      "out": "miners_tonic",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "cooked_meat": 1,
+        "shroom_cap": 1,
+        "wheat": 1
+      },
+      "out": "hearty_stew",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "berry": 2,
+        "wisp_ember": 1
+      },
+      "out": "glow_juice",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "dragon_scale": 2,
+        "slate_block": 2
+      },
+      "out": "dragonscale_tiles",
+      "station": "crafting_table"
+    },
+    {
+      "count": 1,
+      "ingredients": {
+        "leather": 2,
+        "stick": 3
+      },
+      "out": "bow",
+      "station": "crafting_table"
+    },
+    {
+      "count": 4,
+      "ingredients": {
+        "cobblestone": 1,
+        "stick": 1
+      },
+      "out": "arrow",
+      "station": "none"
+    },
+    {
+      "count": 2,
+      "ingredients": {
+        "coal_lump": 1,
+        "slime_gel": 2
+      },
+      "out": "slime_bomb",
+      "station": "crafting_table"
+    },
+    {
+      "count": 2,
+      "ingredients": {
+        "glass": 1,
+        "wisp_ember": 1
+      },
+      "out": "ember_flask",
+      "station": "crafting_table"
+    }
+  ],
+  "toolMatrix": [
+    {
+      "block": "dirt",
+      "displayName": "Dirt",
+      "times": {
+        "axe_iron": 0.5,
+        "hand": 0.5,
+        "pickaxe_crystal": 0.5,
+        "pickaxe_iron": 0.5,
+        "pickaxe_stone": 0.5,
+        "pickaxe_wood": 0.5
+      }
+    },
+    {
+      "block": "stone",
+      "displayName": "Stone",
+      "times": {
+        "axe_iron": 6,
+        "hand": 6,
+        "pickaxe_crystal": 0.67,
+        "pickaxe_iron": 1,
+        "pickaxe_stone": 1.5,
+        "pickaxe_wood": 3
+      }
+    },
+    {
+      "block": "iron_ore",
+      "displayName": "Iron Ore",
+      "times": {
+        "axe_iron": 10,
+        "hand": 10,
+        "pickaxe_crystal": 1.11,
+        "pickaxe_iron": 1.67,
+        "pickaxe_stone": 2.5,
+        "pickaxe_wood": 5
+      }
+    },
+    {
+      "block": "crystal_ore",
+      "displayName": "Crystal Ore",
+      "times": {
+        "axe_iron": 16,
+        "hand": 16,
+        "pickaxe_crystal": 1.78,
+        "pickaxe_iron": 2.67,
+        "pickaxe_stone": 4,
+        "pickaxe_wood": 8
+      }
+    },
+    {
+      "block": "oak_log",
+      "displayName": "Oakwood Log",
+      "times": {
+        "axe_iron": 0.33,
+        "hand": 2,
+        "pickaxe_crystal": 2,
+        "pickaxe_iron": 2,
+        "pickaxe_stone": 2,
+        "pickaxe_wood": 2
+      }
+    },
+    {
+      "block": "gloomstone",
+      "displayName": "Gloomstone",
+      "times": {
+        "axe_iron": 9,
+        "hand": 9,
+        "pickaxe_crystal": 1,
+        "pickaxe_iron": 1.5,
+        "pickaxe_stone": 2.25,
+        "pickaxe_wood": 4.5
+      }
+    }
+  ]
+}
